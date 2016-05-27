@@ -1,0 +1,24 @@
+# Ignore all
+*
+
+# These directories/files are commited
+!bin
+!.config
+!.conkyrc
+!conkympd
+!Dev
+!.fehbg
+!.gtkrc-2.0
+!.icons
+!.local
+!.oh-my-zsh
+!scripts
+!.vim
+!.vimrc
+!.xinitrc
+!.xmonad
+!.Xresources
+!.zshrc
+!.zsh-update
+
+!.gitignore

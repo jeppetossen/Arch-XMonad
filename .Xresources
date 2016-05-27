@@ -1,0 +1,40 @@
+!URxvt.font: xft:Droid Sans Mono:pixelsize=14
+URxvt.font: xft:Hack-Regular:pixelsize=14:antialias=true:hinting=true
+URxvt*letterSpace: 0
+
+URxvt.depth: 24
+*scrollstyle: plain
+*scrollBar: false
+*scrollBar_floating: true
+*scrollBar_right: true
+
+*internalBorder: 4
+
+Xft*dpi: 96
+Xft*antialias: true
+Xtf*hinting: full
+
+! special
+*.foreground:   #F0F0F0
+*.background:   #191919
+*.cursorColor:  #F0F0F0
+
+!Normal Colors
+*.color0: #3f3f4c
+*.color1: #b5db74
+*.color2: #b5db74
+*.color3: #b5db74
+*.color4: #D27B4E
+*.color5: #E29F68
+*.color6: #D67646
+*.color7: #cccaca
+
+!Light Colors
+*.color8: #525263
+*.color9: #E0F5A1
+*.color10: #E0F5A1
+*.color11: #E0F5A1
+*.color12: #d29678
+*.color13: #e2b895
+*.color14: #d69371
+*.color15: #edeff2
