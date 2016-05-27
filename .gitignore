@@ -1,6 +1,6 @@
 # Ignore all
 *
-
+*/*
 # These directories/files are commited
 !bin
 !.config/gtk*
