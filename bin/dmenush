@@ -1,0 +1,3 @@
+#!/bin/sh
+
+dmenu_run -x 0 -y 748 -w 300 -h 18 -nb "#191919" -nf "#55bcce" -sb "#55bcce" -sf "#FFFFFF" -p ">" -t -i -q -o .95
