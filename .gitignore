@@ -3,20 +3,20 @@
 
 # These directories/files are commited
 !bin
-!.config
+!.config*
 !.conkyrc
 !conkympd
-!Dev
+!Dev*
 !.fehbg
 !.gtkrc-2.0
-!.icons
-!.local
-!.oh-my-zsh
-!scripts
-!.vim
+!.icons*
+!.local*
+!.oh-my-zsh*
+!scripts*
+!.vim*
 !.vimrc
 !.xinitrc
-!.xmonad
+!.xmonad*
 !.Xresources
 !.zshrc
 !.zsh-update
