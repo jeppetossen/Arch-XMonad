@@ -1,9 +1,11 @@
-# Ignore all
+# Ignore
 *
 */*
+.config/sublime-sublime-text-3/Local/*session*
+.
 # These directories/files are commited
 !bin
-!.config/gtk*
+!.config/gtk-3.0
 !.config/mpd
 !.config/sublime-text-3
 !.conkyrc
