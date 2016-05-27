@@ -1,0 +1,21 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 0.5
+total_run_times 0
+use_spacer none
+ 
+TEXT
+${if_running spotify}${voffset -2}${font Liberation Sans:style=Bold:size=8}
+${voffset -10}${goto 73}Title: 
+${goto 73}${color2}${exec ~/.conkycolors/spotify/spotify_info_title}${color}
+${goto 73}Artist: 
+${goto 73}${color2}${exec ~/.conkycolors/spotify/spotify_info_artist}${color}
+${goto 73}Album: 
+${goto 73}${color2}${exec ~/.conkycolors/spotify/spotify_info_album}${color}
+${voffset -20}
+${exec ~/.conkycolors/spotify/spotify_album_cover}
+${image ~/.conkycolors/spotify/last_album_pic.png -p 0,180 -s 60x60}
+
+${else}${voffset -5}${color0}${font ConkyColors:size=16}G${font}${color}${voffset -10}${goto 32}Spotify: ${color2}off${color}${voffset 7}
+${endif}

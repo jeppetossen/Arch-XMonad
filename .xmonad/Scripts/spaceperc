@@ -1,0 +1,23 @@
+#!/bin/bash
+# ------------------------------------------------------------------
+#
+#     Scripts/spaceperc
+#     Description: Script for piping the free space status into dzen
+#     Author: otiuz Sánchez <kniren@gmail.com>
+#
+# ------------------------------------------------------------------
+
+FREE=`df /home -h | awk 'END{gsub(/%/,""); print $5}'`
+
+ICON="diskette.xbm"
+if [[ $FREE -gt 90 ]]; then
+    PERCBAR=`echo -e "$FREE"\
+        | gdbar -bg "#393939" -fg red -h 1 -w 60`
+    ICON='^fg(red)^i(/home/otiuz/.xmonad/dzen/icons/xbm8x8/'"$ICON)"
+else
+    PERCBAR=`echo -e "$FREE"\
+        | gdbar -bg "#393939" -fg "#d6d6d6" -h 1 -w 60`
+    ICON='^i(/home/otiuz/.xmonad/dzen/icons/xbm8x8/'"$ICON)"
+fi
+
+echo "$ICON $PERCBAR"

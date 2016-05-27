@@ -1,0 +1,14 @@
+#!/bin/bash
+
+first_album=""
+
+while :
+do
+	new_album=`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Metadata'|egrep -A 1 "album"|egrep -v "album"|cut -b 44-|cut -d '"' -f 1|egrep -v ^$`
+	if [ "$new_album" != "$first_album" ]
+	then
+		first_album="$new_album"
+		echo "$new_album"
+	fi
+	sleep 1
+done

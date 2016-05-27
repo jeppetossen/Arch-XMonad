@@ -1,0 +1,19 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 0.5
+total_run_times 0
+use_spacer none
+ 
+TEXT
+^fg(\#3c3c3c)^i(/home/otiuz/.icons/xbm8x8/arrow_big_01.xbm)\
+^bg(\#3c3c3c)^fg(\#56D7FC)^i(/home/otiuz/.icons/xbm8x8/shroom.xbm) otiuz \
+^fg(\#101010)^i(/home/otiuz/.icons/xbm8x8/arrow_big_01.xbm)^fg()^bg() \
+^fg(\#FFAB8F)^i(/home/otiuz/.icons/xbm8x8/cat.xbm) $nodename \
+^fg(\#3c3c3c)^i(/home/otiuz/.icons/xbm8x8/arrow_big_01.xbm)^fg()^bg()\
+^bg(\#3c3c3c)^fg(\#AEF554)^i(/home/otiuz/.icons/xbm8x8/arch_10x10.xbm) $uptime_short \
+^fg(\#101010)^i(/home/otiuz/.icons/xbm8x8/arrow_big_01.xbm)^bg()^fg() \
+^bg(\#101010)^fg(\#5DBFFF)^i(/home/otiuz/.icons/xbm8x8/mem.xbm) ${mem} \
+^fg(\#3c3c3c)^i(/home/otiuz/.icons/xbm8x8/arrow_big_01.xbm)^fg()\
+^bg(\#3c3c3c)^fg(\#E0DA37) ^i(/home/otiuz/.icons/xbm8x8/spkr_01.xbm) ${mpd_vol} \
+^fg(\#101010)^i(/home/otiuz/.icons/xbm8x8/arrow_big_01.xbm)^bg()\

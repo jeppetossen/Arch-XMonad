@@ -1,0 +1,222 @@
+
+xmonad.hs:83:19: Warning: Tab character
+
+xmonad.hs:85:8: Warning: Tab character
+
+xmonad.hs:86:8: Warning: Tab character
+
+xmonad.hs:98:1: Warning: Tab character
+
+xmonad.hs:99:1: Warning: Tab character
+
+xmonad.hs:102:1: Warning: Tab character
+
+xmonad.hs:103:1: Warning: Tab character
+
+xmonad.hs:104:1: Warning: Tab character
+
+xmonad.hs:105:1: Warning: Tab character
+
+xmonad.hs:106:1: Warning: Tab character
+
+xmonad.hs:106:18: Warning:
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+
+xmonad.hs:107:1: Warning: Tab character
+
+xmonad.hs:108:1: Warning: Tab character
+
+xmonad.hs:108:60: Warning:
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+
+xmonad.hs:109:2: Warning: Tab character
+
+xmonad.hs:110:1: Warning: Tab character
+
+xmonad.hs:111:1: Warning: Tab character
+
+xmonad.hs:112:1: Warning: Tab character
+
+xmonad.hs:113:1: Warning: Tab character
+
+xmonad.hs:114:1: Warning: Tab character
+
+xmonad.hs:115:1: Warning: Tab character
+
+xmonad.hs:116:1: Warning: Tab character
+
+xmonad.hs:117:1: Warning: Tab character
+
+xmonad.hs:118:1: Warning: Tab character
+
+xmonad.hs:119:1: Warning: Tab character
+
+xmonad.hs:120:1: Warning: Tab character
+
+xmonad.hs:121:1: Warning: Tab character
+
+xmonad.hs:122:1: Warning: Tab character
+
+xmonad.hs:122:29: Warning: Tab character
+
+xmonad.hs:122:44: Warning: Tab character
+
+xmonad.hs:126:1: Warning: Tab character
+
+xmonad.hs:127:5: Warning: Tab character
+
+xmonad.hs:128:1: Warning: Tab character
+
+xmonad.hs:129:1: Warning: Tab character
+
+xmonad.hs:130:1: Warning: Tab character
+
+xmonad.hs:131:1: Warning: Tab character
+
+xmonad.hs:132:1: Warning: Tab character
+
+xmonad.hs:133:1: Warning: Tab character
+
+xmonad.hs:134:1: Warning: Tab character
+
+xmonad.hs:135:1: Warning: Tab character
+
+xmonad.hs:138:1: Warning: Tab character
+
+xmonad.hs:139:1: Warning: Tab character
+
+xmonad.hs:140:1: Warning: Tab character
+
+xmonad.hs:141:1: Warning: Tab character
+
+xmonad.hs:142:1: Warning: Tab character
+
+xmonad.hs:150:1: Warning: Tab character
+
+xmonad.hs:150:21: Warning: Tab character
+
+xmonad.hs:150:36: Warning: Tab character
+
+xmonad.hs:151:1: Warning: Tab character
+
+xmonad.hs:151:21: Warning: Tab character
+
+xmonad.hs:151:31: Warning: Tab character
+
+xmonad.hs:152:1: Warning: Tab character
+
+xmonad.hs:152:21: Warning: Tab character
+
+xmonad.hs:152:31: Warning: Tab character
+
+xmonad.hs:153:1: Warning: Tab character
+
+xmonad.hs:153:21: Warning: Tab character
+
+xmonad.hs:153:31: Warning: Tab character
+
+xmonad.hs:154:1: Warning: Tab character
+
+xmonad.hs:154:21: Warning: Tab character
+
+xmonad.hs:154:31: Warning: Tab character
+
+xmonad.hs:155:1: Warning: Tab character
+
+xmonad.hs:155:21: Warning: Tab character
+
+xmonad.hs:155:31: Warning: Tab character
+
+xmonad.hs:157:1: Warning: Tab character
+
+xmonad.hs:157:21: Warning: Tab character
+
+xmonad.hs:157:31: Warning: Tab character
+
+xmonad.hs:158:1: Warning: Tab character
+
+xmonad.hs:158:21: Warning: Tab character
+
+xmonad.hs:158:31: Warning: Tab character
+
+xmonad.hs:161:4: Warning: Tab character
+
+xmonad.hs:161:37: Warning: Tab character
+
+xmonad.hs:161:47: Warning: Tab character
+
+xmonad.hs:162:4: Warning: Tab character
+
+xmonad.hs:163:4: Warning: Tab character
+
+xmonad.hs:164:4: Warning: Tab character
+
+xmonad.hs:165:7: Warning: Tab character
+
+xmonad.hs:166:8: Warning: Tab character
+
+xmonad.hs:167:4: Warning: Tab character
+
+xmonad.hs:168:4: Warning: Tab character
+
+xmonad.hs:168:10: Warning: Tab character
+
+xmonad.hs:169:6: Warning: Tab character
+
+xmonad.hs:169:12: Warning: Tab character
+
+xmonad.hs:190:1: Warning: Tab character
+
+xmonad.hs:190:20: Warning: Tab character
+
+xmonad.hs:191:1: Warning: Tab character
+
+xmonad.hs:191:19: Warning: Tab character
+
+xmonad.hs:192:1: Warning: Tab character
+
+xmonad.hs:192:28: Warning: Tab character
+
+xmonad.hs:193:1: Warning: Tab character
+
+xmonad.hs:193:16: Warning: Tab character
+
+xmonad.hs:194:1: Warning: Tab character
+
+xmonad.hs:194:19: Warning: Tab character
+
+xmonad.hs:195:1: Warning: Tab character
+
+xmonad.hs:196:1: Warning: Tab character
+
+xmonad.hs:196:18: Warning: Tab character
+
+xmonad.hs:197:1: Warning: Tab character
+
+xmonad.hs:197:19: Warning: Tab character
+
+xmonad.hs:198:1: Warning: Tab character
+
+xmonad.hs:198:18: Warning: Tab character
+
+xmonad.hs:199:1: Warning: Tab character
+
+xmonad.hs:199:16: Warning: Tab character
+
+xmonad.hs:199:20: Warning: Tab character
+
+xmonad.hs:200:1: Warning: Tab character
+
+xmonad.hs:200:20: Warning: Tab character
+
+xmonad.hs:201:1: Warning: Tab character
+
+xmonad.hs:201:21: Warning: Tab character
+
+xmonad.hs:202:1: Warning: Tab character
+
+xmonad.hs:202:20: Warning: Tab character
