@@ -3,33 +3,24 @@
 
 # These directories/files are commited
 !bin
-!bin/**
-!.config
 !.config/gtk*
 !.config/mpd
 !.config/sublime-text-3
 !.conkyrc
 !conkympd
 !Dev
-!Dev/**
 !.fehbg
 !.gtkrc-2.0
 !.icons
-!.icons/**
-!.local
 !.local/fonts
 !.local/icons
 !.local/themes
 !.oh-my-zsh
-!.oh-my-zsh/**
 !scripts
-!scripts/**
 !.vim
-!.vim/**
 !.vimrc
 !.xinitrc
 !.xmonad
-!.xmonad/**
 !.Xresources
 !.zshrc
 !.zsh-update
