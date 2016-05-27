@@ -5,7 +5,9 @@
 !bin
 !bin/**
 !.config
-!.config/**
+!.config/gtk*
+!.config/mpd
+!.config/sublime-text-3
 !.conkyrc
 !conkympd
 !Dev
