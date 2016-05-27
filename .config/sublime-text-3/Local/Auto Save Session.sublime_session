@@ -407,10 +407,10 @@
 					}
 				},
 				{
-					"contents": "import XMonad\n\n-- Util\nimport XMonad.Util.Run\n\n-- Hooks\nimport XMonad.\n\nimport Data.Ratio\nimport System.IO\nimport System.Exit\n\n-- Constants\nwinMask = mod4Mask\nmyTerm	= \"urxvtc\"\n\n-- Colors\ncWhite	=	\"#D27B4E\"\ncBlack	=	\"#080808\"\ncBlue	=	\"\"\ncGreen	=	\"\"\ncRed	=	\"\"\ncOrange	=	\"\"\n\n-- Name of workspaces\nmySpace :: [String]\nmySpace = [\"\", \"\", \"\", \"\", \"\", \"\", \"\"]\n\n-- Autostart\nstartUp :: X()\nstartUp = do\n	spawn \"urxvtd\"\n\nmain = do\n	bar		=	spawnPipe status\n	bottom	=	spawnPipe \"\"\n	top		=	spawnPipe \"\"\n	left	=	spawnPipe \"\"\n	right	=	spawnPipe \"\"\n	xmonad $ defaultConfig \n		{ manageHook = myManageHook <+> manageHook defaultConfig\n		, startupHook = startUp <+> setWMName \"LG3D\"\n		, borderWidth = 4\n		, focusedBorderColor = cBlue\n		, normalBorderColo = cBlack\n		, workspaces = mySpace\n		, layoutHook = smartBorders $ avoidStruts $ spacing 4 $ Tall 1 (3/100) (1/2)\n		, logHook = myLogHook bar\n		, keys = myKeys\n		} where status = \"\" ++ font ++ \"\" font = \"M+ 2p-7\" -- WS-bar\n\n-- Manage programs (float, workspace, bars etc)\nmyManageHook = (composeAll . concat $\n	[	[resource =? \"URxvtc\" --doShift (mySpace !! 0)]\n	,	[resource =? \"Firefox\" --doShift (mySpace !! 1)]\n	]) <+> manageDocks\n\nmyLayoutHook = spacing 4 $ avoidStruts $ smartBorders $ tiled\n	where\n		tiled	= Tall 1 (3/100) (1/2)\n\n",
+					"file": "/home/otiuz/.xmonad/xmonad.hs.new",
 					"settings":
 					{
-						"buffer_size": 1272,
+						"buffer_size": 2528,
 						"line_ending": "Unix"
 					}
 				},
@@ -654,8 +654,8 @@
 								"selection":
 								[
 									[
-										290,
-										290
+										3324,
+										3324
 									]
 								],
 								"settings":
@@ -663,7 +663,7 @@
 									"syntax": "Packages/Haskell/Haskell.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 3472.0,
+								"translation.y": 4928.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -671,18 +671,19 @@
 						},
 						{
 							"buffer": 1,
+							"file": "/home/otiuz/.xmonad/xmonad.hs.new",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1272,
+								"buffer_size": 2528,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1272,
-										1272
+										2528,
+										2528
 									]
 								],
 								"settings":
@@ -690,7 +691,7 @@
 									"syntax": "Packages/Haskell/Haskell.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1176.0,
+								"translation.y": 2100.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -769,7 +770,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,0,0,3,25,1357,743,1360,768",
+			"position": "0,0,0,0,0,3,25,1357,743,1360,768",
 			"project": "",
 			"replace":
 			{
