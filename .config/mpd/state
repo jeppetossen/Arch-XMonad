@@ -1,0 +1,149 @@
+sw_volume: 31
+audio_device_state:1:My Pulse Output
+audio_device_state:1:my_fifo
+state: stop
+current: 87
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Rock/Black City/Black City - Summertime (V. Yavorsky).mp3
+1:Rock/Black City/Black City - The One You Sacrifice (M. Nazarov).mp3
+2:Rock/Black City/Black City - Fire (M. Mikhaylov).mp3
+3:Rock/Black City/Black City - Here Comes The Rain.mp3
+4:Rock/Block Party/Bloc Party - Banquet.mp3
+5:Rock/Burn Halo/Up From The Ashes (2011)/01-burn_halo-tear_it_down.mp3
+6:Rock/Burn Halo/Up From The Ashes (2011)/02-burn_halo-up_from_the_ashes.mp3
+7:Rock/Burn Halo/Up From The Ashes (2011)/03-burn_halo-stranded.mp3
+8:Rock/Burn Halo/Up From The Ashes (2011)/04-burn_halo-threw_it_all_away.mp3
+9:Rock/Burn Halo/Up From The Ashes (2011)/05-burn_halo-alone.mp3
+10:Rock/Burn Halo/Up From The Ashes (2011)/06-burn_halo-stuck_in_a_rut.mp3
+11:Rock/Burn Halo/Up From The Ashes (2011)/07-burn_halo-give_me_a_sign.mp3
+12:Rock/Burn Halo/Up From The Ashes (2011)/08-burn_halo-dakota.mp3
+13:Rock/Burn Halo/Up From The Ashes (2011)/09-burn_halo-rest_my_soul.mp3
+14:Rock/Burn Halo/Up From The Ashes (2011)/10-burn_halo-i_wont_back_down.mp3
+15:Rock/Burn Halo/Up From The Ashes (2011)/11-burn_halo-shine.mp3
+16:Rock/Burn Halo/Up From The Ashes (2011)/12-burn_halo-bonus_track.mp3
+17:Rock/Deftones/Deftones - Romantic Dreams.mp3
+18:Rock/Finch/Finch - Anywhere But Here (2014).mp3
+19:Rock/Finch/Finch - Play Dead (2014).mp3
+20:Rock/Finger Eleven/Finger Eleven - Wolves And Doors.mp3
+21:Rock/Finger Eleven/Finger Eleven - Falling On.mp3
+22:Rock/Fire Red Empress/Fire Red Empress - Left Unspoken.mp3
+23:Rock/Foo Fighters/Foo Fighters - 2014 - Sonic Highways/01. Something From Nothing.mp3
+24:Rock/Foo Fighters/Foo Fighters - 2014 - Sonic Highways/02. The Feast and the Famine.mp3
+25:Rock/Foo Fighters/Foo Fighters - 2014 - Sonic Highways/03. Congregation.mp3
+26:Rock/Foo Fighters/Foo Fighters - 2014 - Sonic Highways/04. What Did I DoGod as My Witness.mp3
+27:Rock/Foo Fighters/Foo Fighters - 2014 - Sonic Highways/05. Outside.mp3
+28:Rock/Foo Fighters/Foo Fighters - 2014 - Sonic Highways/06. In the Clear.mp3
+29:Rock/Foo Fighters/Foo Fighters - 2014 - Sonic Highways/07. Subterranean.mp3
+30:Rock/Foo Fighters/Foo Fighters - 2014 - Sonic Highways/08. I Am a River.mp3
+31:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/01 - Bridge Burning.mp3
+32:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/02 - Rope.mp3
+33:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/03 - Dear Rosemary.mp3
+34:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/04 - White Limo.mp3
+35:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/05 - Arlandria.mp3
+36:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/06 - These Days.mp3
+37:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/07 - Back & Forth.mp3
+38:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/08 - A Matter Of Time.mp3
+39:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/09 - Miss The Misery.mp3
+40:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/10 - I Should Have Known.mp3
+41:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD1/11 - Walk.mp3
+42:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD2/01 - Rope (Deadmaus5 Mix).mp3
+43:Rock/Foo Fighters/Foo Fighters - Wasting Light (2CD Deluxe Edition) 2011 (320 kbps)/CD2/02 - Better Off.mp3
+44:Rock/Interpol/El Pintor (2014)/Interpol-All The Rage Back Home.mp3
+45:Rock/Interpol/El Pintor (2014)/Interpol-My Desire.mp3
+46:Rock/Interpol/El Pintor (2014)/Interpol-Anywhere.mp3
+47:Rock/Interpol/El Pintor (2014)/Interpol-Same Town, New Story.mp3
+48:Rock/Interpol/El Pintor (2014)/Interpol-My Blue Supreme.mp3
+49:Rock/Interpol/El Pintor (2014)/Interpol-Everything is Wrong.mp3
+50:Rock/Interpol/El Pintor (2014)/Interpol-Breaker 1.mp3
+51:Rock/Interpol/El Pintor (2014)/Interpol-Ancient Ways.mp3
+52:Rock/Interpol/El Pintor (2014)/Interpol-Tidal Wave.mp3
+53:Rock/Interpol/El Pintor (2014)/Interpol-Twice as Hard.mp3
+54:Rock/Interpol/Our Love (2007)/01 - Pioneer to the Falls - (Musicfire.in).mp3
+55:Rock/Interpol/Our Love (2007)/02 - No I in Threesome - (Musicfire.in).mp3
+56:Rock/Interpol/Our Love (2007)/03 - The Scale - (Musicfire.in).mp3
+57:Rock/Interpol/Our Love (2007)/04 - The Heinrich Maneuver - (Musicfire.in).mp3
+58:Rock/Interpol/Our Love (2007)/05 - Mammoth - (Musicfire.in).mp3
+59:Rock/Interpol/Our Love (2007)/06 - Pace Is the Trick - (Musicfire.in).mp3
+60:Rock/Interpol/Our Love (2007)/07 - All Fired Up - (Musicfire.in).mp3
+61:Rock/Interpol/Our Love (2007)/08 - Rest My Chemistry - (Musicfire.in).mp3
+62:Rock/Interpol/Our Love (2007)/09 - Who Do You Think - (Musicfire.in).mp3
+63:Rock/Interpol/Our Love (2007)/10 - Wrecking Ball - (Musicfire.in).mp3
+64:Rock/Interpol/Our Love (2007)/11 - The Lighthouse - (Musicfire.in).mp3
+65:Rock/Manchester Orchestra/Manchester Orchestra - Shake It Out (O. Abramov).mp3
+66:Rock/Modest Mouse/Modest Mouse - The Ground Walks, With Time In A Box.mp3
+67:Rock/Modest Mouse/Modest Mouse - Lampshades On Fire.mp3
+68:Rock/Our Lady Peace/Our Lady Peace - Superman's Dead.mp3
+69:Rock/Phoenix/phoenix - 1901.mp3
+70:Rock/Preatures/The Preatures - Is This How You Feel.mp3
+71:Rock/Preatures/The Preatures - It Gets Better.mp3
+72:Rock/Saint Asonia/Saint Asonia - Blow Me Wide Open (D. Akulshin).mp3
+73:Rock/Saint Asonia/Saint Asonia - Better Place.mp3
+74:Rock/Sister Sin/Sister Sin - Fight Song.mp3
+75:Rock/Tara Perdida/Tara Perdida - Luta (A. Marychev).mp3
+76:Rock/The Fashion/The Fashion - Roller Disco Inferno (P. Mikhaylov).mp3
+77:Rock/The Fashion/The Fashion - Mathematics.mp3
+78:Rock/The Kooks/2014 - Listen/[Songira.com] 01 - The Kooks - Around Town.mp3
+79:Rock/The Kooks/2014 - Listen/[Songira.com] 02 - The Kooks - Forgive & Forget.mp3
+80:Rock/The Kooks/2014 - Listen/[Songira.com] 03 - The Kooks - Westside.mp3
+81:Rock/The Kooks/2014 - Listen/[Songira.com] 04 - The Kooks - See Me Now.mp3
+82:Rock/The Kooks/2014 - Listen/[Songira.com] 05 - The Kooks - It Was London.mp3
+83:Rock/The Kooks/2014 - Listen/[Songira.com] 06 - The Kooks - Bad Habit.mp3
+84:Rock/The Kooks/2014 - Listen/[Songira.com] 07 - The Kooks - Down.mp3
+85:Rock/The Kooks/2014 - Listen/[Songira.com] 08 - The Kooks - Dreams.mp3
+86:Rock/The Kooks/2014 - Listen/[Songira.com] 09 - The Kooks - Are We Electric.mp3
+87:Rock/The Kooks/2014 - Listen/[Songira.com] 10 - The Kooks - Sunrise.mp3
+88:Rock/The Kooks/2014 - Listen/[Songira.com] 11 - The Kooks - Sweet Emotion.mp3
+89:Rock/The Kooks/2014 - Listen/[Songira.com] 12 - The Kooks - Murderer.mp3
+90:Rock/The Kooks/2014 - Listen/[Songira.com] 13 - The Kooks - Icons.mp3
+91:Rock/The Kooks/2014 - Listen/[Songira.com] 14 - The Kooks - Keep Your Head Up.mp3
+92:Rock/The Kooks/2014 - Listen/[Songira.com] 15 - The Kooks - Backstabber.mp3
+93:Rock/The Strokes/Comedown Machine (2013)/01 - Tap Out.mp3
+94:Rock/The Strokes/Comedown Machine (2013)/02 - All The Time.mp3
+95:Rock/The Strokes/Comedown Machine (2013)/03 - One Way Trigger.mp3
+96:Rock/The Strokes/Comedown Machine (2013)/04 - Welcome to Japan.mp3
+97:Rock/The Strokes/Comedown Machine (2013)/05 - 80's Comedown Machine.mp3
+98:Rock/The Strokes/Comedown Machine (2013)/06 - 50 50.mp3
+99:Rock/The Strokes/Comedown Machine (2013)/07 - Slow Animals.mp3
+100:Rock/The Strokes/Comedown Machine (2013)/08 - Partners in Crime.mp3
+101:Rock/The Strokes/Comedown Machine (2013)/09 - Chances.mp3
+102:Rock/The Strokes/Comedown Machine (2013)/10 - Happy Ending.mp3
+103:Rock/The Strokes/Comedown Machine (2013)/11 - Call It Fate Call It Karma.mp3
+104:Rock/The Strokes/First Impressions of Earth (2005)/01 - You Only Live Once.mp3
+105:Rock/The Strokes/First Impressions of Earth (2005)/02 - Juicebox.mp3
+106:Rock/The Strokes/First Impressions of Earth (2005)/03 -  Heart In A Cage.mp3
+107:Rock/The Strokes/First Impressions of Earth (2005)/04 -  Razorblade.mp3
+108:Rock/The Strokes/First Impressions of Earth (2005)/05 -  On The Other Side.mp3
+109:Rock/The Strokes/First Impressions of Earth (2005)/06 -  Vision Of Division.mp3
+110:Rock/The Strokes/First Impressions of Earth (2005)/07 - Ask Me Anything.mp3
+111:Rock/The Strokes/First Impressions of Earth (2005)/08 -  Electricityscape.mp3
+112:Rock/The Strokes/First Impressions of Earth (2005)/09 -  Killing Lies.mp3
+113:Rock/The Strokes/First Impressions of Earth (2005)/10 -  Fear Of Sleep.mp3
+114:Rock/The Strokes/First Impressions of Earth (2005)/11 - 15 Minutes .mp3
+115:Rock/The Strokes/First Impressions of Earth (2005)/12  - Ize Of The World.mp3
+116:Rock/The Strokes/First Impressions of Earth (2005)/13 -  Evening Sun.mp3
+117:Rock/The Strokes/First Impressions of Earth (2005)/14 -  Red Light.mp3
+118:Rock/Trapt - Headstrong (2011)/01 - Headstrong (2011 Version).mp3
+119:Rock/Trapt - Headstrong (2011)/02 - Echo (2011 Version).mp3
+120:Rock/Trapt - Headstrong (2011)/03 - Still Frame (2011 Version).mp3
+121:Rock/Trapt - Headstrong (2011)/04 - These Walls (2011 Version).mp3
+122:Rock/Trapt - Headstrong (2011)/05 - Made Of Glass (2011 Version).mp3
+123:Rock/Trapt - Headstrong (2011)/06 - The Game (2011 Version).mp3
+124:Rock/Trapt - Headstrong (2011)/07 - When All Is Said And Done (2011 Version).mp3
+125:Rock/Trapt - Headstrong (2011)/08 - Policy Of Truth (2011 Version).mp3
+126:Rock/Trapt - Headstrong (2011)/09 - Everything To Lose (Live).mp3
+127:Rock/Trapt - Headstrong (2011)/10 - Enigma (Live).mp3
+128:Rock/Trapt - Headstrong (2011)/11 - Perfect Dream (Demo).mp3
+129:Rock/Trapt - Headstrong (2011)/12 - Patience (Demo).mp3
+130:Rock/Trapt - Headstrong (2011)/13 - Headstrong (Clean).mp3
+131:Rock/Trapt - Headstrong (2011)/14 - Headstrong (Alexis K Dubstep Remix).mp3
+132:Rock/Trapt - Headstrong (2011)/15 - Headstrong (Die Krupps Remix).mp3
+133:Rock/Trapt - Headstrong (2011)/16 - Headstrong (Acoustic Version).mp3
+134:Rock/Trapt - Headstrong (2011)/17 - Echo (Acoustic Version).mp3
+playlist_end

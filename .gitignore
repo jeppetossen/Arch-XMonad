@@ -4,6 +4,7 @@
 # These directories/files are commited
 !bin
 !bin/**
+!.config
 !.config/**
 !.conkyrc
 !conkympd

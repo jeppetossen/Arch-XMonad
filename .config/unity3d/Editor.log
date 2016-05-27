@@ -1,0 +1,50 @@
+mono profile = '/home/otiuz/Downloads/unity-editor-5.4.0b16/Editor/Data/Mono/lib/mono/2.0'
+Initialize mono
+Mono path[0] = '/home/otiuz/Downloads/unity-editor-5.4.0b16/Editor/Data/Managed'
+Mono path[1] = '/home/otiuz/Downloads/unity-editor-5.4.0b16/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = '/home/otiuz/Downloads/unity-editor-5.4.0b16/Editor/Data/UnityScript'
+Mono path[3] = '/home/otiuz/Downloads/unity-editor-5.4.0b16/Editor/Data/Mono/lib/mono/2.0'
+Mono config path = '/home/otiuz/Downloads/unity-editor-5.4.0b16/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56425
+
+(Unity:28425): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+
+(Unity:28425): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+Desktop is 1360 x 768 @ 60 Hz
+
+Selecting FBConfig
+GLX_FBCONFIG_ID=165
+GLX_BUFFER_SIZE=24
+GLX_DOUBLEBUFFER=1
+GLX_RED_SIZE=8
+GLX_GREEN_SIZE=8
+GLX_BLUE_SIZE=8
+GLX_ALPHA_SIZE=0
+GLX_DEPTH_SIZE=24
+GLX_STENCIL_SIZE=8
+GLX_SAMPLES_ARB=0
+GLX_SAMPLE_BUFFERS_ARB=0
+GLX_STEREO=0
+GLX_CONFIG_CAVEAT=NONE
+
+Error: execv(npm): No such file or directory
+ 
+(Filename: /home/builduser/buildslave/unity/build/Editor/Platform/Linux/EditorUtility.cpp Line: 39)
+
+ListPackages failed, output: 
+Error: execv(npm): No such file or directory
+ 
+(Filename: /home/builduser/buildslave/unity/build/Editor/Platform/Linux/EditorUtility.cpp Line: 39)
+
+InstallEditorPackages failed, output: process_set_termination_details: error looking up process handle 0x401
+
+installJavascriptPackages failed
+ 
+(Filename: /home/builduser/buildslave/unity/build/Runtime/Utilities/Argv.cpp Line: 168)
+
+[0526/005601:ERROR:gpu_process_transport_factory.cc(402)] Failed to establish GPU channel.
+Error loading file:///%2Fhome%2Fotiuz%2F.local%2Fshare%2Funity3d%2FPackages%2Fnode_modules%2Funity-editor-home%2Fdist/index.html#/project/recent
+
+ 
+(Filename: /home/builduser/buildslave/unity/build/Editor/Platform/Interface/NativeWebViewWindow.cpp Line: 50)
+

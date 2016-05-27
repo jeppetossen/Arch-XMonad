@@ -1,0 +1,45 @@
+﻿Log file open, 05/25/16 09:24:45
+LogModuleManager:Warning: ModuleManager: Module 'PakFile' not found - its StaticallyLinkedModuleInitializers function is null.
+LogPlatformFile: Not using cached read wrapper
+LogModuleManager:Warning: ModuleManager: Module 'SandboxFile' not found - its StaticallyLinkedModuleInitializers function is null.
+LogInit:Display: RandInit(-1934634687) SRandInit(-1934634684).
+LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+LogInit: Version: 4.11.0-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Feb 25 2016 11:54:53
+LogInit: Compiled with Clang: 3.5.0 (tags/RELEASE_350/final)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: UE4
+LogInit: Command line:  Engine/Binaries/Linux/CrashReportClient-Linux-Shippingx86_64-unknown-linux-gnu.target
+LogInit: Base directory: /home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.25-09.24.45:510][  0]LogInit: Linux hardware info:
+[2016.05.25-09.24.45:510][  0]LogInit:  - we are the first instance of this executable
+[2016.05.25-09.24.45:510][  0]LogInit:  - this process' id (pid) is 12206, parent process' id (ppid) is 12124
+[2016.05.25-09.24.45:510][  0]LogInit:  - we are not running under debugger
+[2016.05.25-09.24.45:510][  0]LogInit:  - machine network name is 'archlinux'
+[2016.05.25-09.24.45:510][  0]LogInit:  - user name is 'otiuz' (otiuz)
+[2016.05.25-09.24.45:510][  0]LogInit:  - we're logged in locally
+[2016.05.25-09.24.45:510][  0]LogInit:  - Number of physical cores available for the process: 6
+[2016.05.25-09.24.45:510][  0]LogInit:  - Number of logical cores available for the process: 6
+[2016.05.25-09.24.45:510][  0]LogInit:  - Cache line size: 64
+[2016.05.25-09.24.45:510][  0]LogInit:  - Memory allocator used: jemalloc
+[2016.05.25-09.24.45:510][  0]LogInit: Linux-specific commandline switches:
+[2016.05.25-09.24.45:510][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2016.05.25-09.24.45:510][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2016.05.25-09.24.45:510][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2016.05.25-09.24.45:510][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2016.05.25-09.24.45:510][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2016.05.25-09.24.45:510][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2016.05.25-09.24.45:510][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2016.05.25-09.24.45:510][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7884 MB, 8073708 KB, 8267476992 bytes)
+[2016.05.25-09.24.45:510][  0]LogTextLocalizationManager: No translations for ('') exist, falling back to 'en' for localization and internationalization data.
+[2016.05.25-09.24.45:511][  0]CrashReportClientLog: CrashReportReceiverIP: http://crashreporter.epicgames.com:57005
+[2016.05.25-09.24.45:511][  0]CrashReportClientLog: DataRouterUrl: https://datarouter-public-service-prod06.ol.epicgames.com/datarouter/api/v1/public/data
+[2016.05.25-09.24.45:511][  0]LogExit: Preparing to exit.
+[2016.05.25-09.24.45:511][  0]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.25-09.24.45:511][  0]LogExit: Object subsystem successfully closed.
+[2016.05.25-09.24.45:517][  0]LogExit: Exiting.
+[2016.05.25-09.24.45:561][  0]Log file closed, 05/25/16 09:24:45

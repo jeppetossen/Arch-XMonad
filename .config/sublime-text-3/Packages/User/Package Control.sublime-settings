@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"ColorPicker",
+		"ColorSchemeEditor",
+		"CTags",
+		"Git",
+		"GitGutter",
+		"Material Theme",
+		"Numix Theme",
+		"OmniSharp",
+		"Package Control",
+		"PackageResourceViewer",
+		"Predawn",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-clang",
+		"SublimeREPL",
+		"Terminal",
+		"Theme - Augmented Reaction",
+		"Theme - Brogrammer",
+		"Theme - Cobalt2",
+		"Theme - Freesia",
+		"Theme - Glacier",
+		"Trimmer"
+	]
+}

@@ -1,0 +1,115 @@
+﻿Log file open, 05/25/16 13:35:38
+LogModuleManager:Warning: ModuleManager: Module 'PakFile' not found - its StaticallyLinkedModuleInitializers function is null.
+LogPlatformFile: Not using cached read wrapper
+LogModuleManager:Warning: ModuleManager: Module 'SandboxFile' not found - its StaticallyLinkedModuleInitializers function is null.
+LogInit:Display: RandInit(233621499) SRandInit(233621502).
+LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+LogInit: Version: 4.11.0-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Feb 25 2016 11:54:53
+LogInit: Compiled with Clang: 3.5.0 (tags/RELEASE_350/final)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: UE4
+LogInit: Command line:  /home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/
+LogInit: Base directory: /home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.25-13.35.39:019][  0]LogInit: Linux hardware info:
+[2016.05.25-13.35.39:019][  0]LogInit:  - we are the first instance of this executable
+[2016.05.25-13.35.39:019][  0]LogInit:  - this process' id (pid) is 29923, parent process' id (ppid) is 26796
+[2016.05.25-13.35.39:019][  0]LogInit:  - we are not running under debugger
+[2016.05.25-13.35.39:019][  0]LogInit:  - machine network name is 'archlinux'
+[2016.05.25-13.35.39:019][  0]LogInit:  - user name is 'otiuz' (otiuz)
+[2016.05.25-13.35.39:019][  0]LogInit:  - we're logged in locally
+[2016.05.25-13.35.39:019][  0]LogInit:  - Number of physical cores available for the process: 6
+[2016.05.25-13.35.39:019][  0]LogInit:  - Number of logical cores available for the process: 6
+[2016.05.25-13.35.39:019][  0]LogInit:  - Cache line size: 64
+[2016.05.25-13.35.39:019][  0]LogInit:  - Memory allocator used: jemalloc
+[2016.05.25-13.35.39:019][  0]LogInit: Linux-specific commandline switches:
+[2016.05.25-13.35.39:019][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2016.05.25-13.35.39:019][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2016.05.25-13.35.39:019][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2016.05.25-13.35.39:019][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2016.05.25-13.35.39:019][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2016.05.25-13.35.39:019][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2016.05.25-13.35.39:019][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2016.05.25-13.35.39:019][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7884 MB, 8073708 KB, 8267476992 bytes)
+[2016.05.25-13.35.39:019][  0]LogTextLocalizationManager: No translations for ('') exist, falling back to 'en' for localization and internationalization data.
+[2016.05.25-13.35.39:019][  0]CrashReportClientLog: CrashReportReceiverIP: http://crashreporter.epicgames.com:57005
+[2016.05.25-13.35.39:019][  0]CrashReportClientLog: DataRouterUrl: https://datarouter-public-service-prod06.ol.epicgames.com/datarouter/api/v1/public/data
+[2016.05.25-13.35.39:020][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2016.05.25-13.35.39:073][  0]LogInit: Using libcurl 7.46.0
+[2016.05.25-13.35.39:073][  0]LogInit:  - built for x86_64-pc-linux-gnu
+[2016.05.25-13.35.39:073][  0]LogInit:  - supports SSL with OpenSSL/1.0.2d
+[2016.05.25-13.35.39:073][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.5
+[2016.05.25-13.35.39:073][  0]LogInit:  - other features:
+[2016.05.25-13.35.39:073][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.25-13.35.39:073][  0]LogInit:      CURL_VERSION_LIBZ
+[2016.05.25-13.35.39:073][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.25-13.35.39:073][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.25-13.35.39:073][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.25-13.35.39:073][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2016.05.25-13.35.39:073][  0]LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+[2016.05.25-13.35.39:073][  0]LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+[2016.05.25-13.35.39:073][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.25-13.35.39:073][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.25-13.35.39:074][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.25-13.35.39:074][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.25-13.35.39:074][  0]LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+[2016.05.25-13.35.39:074][  0]CrashReportClientLog: Sending HTTP request: http://crashreporter.epicgames.com:57005/CrashReporter/Ping
+[2016.05.25-13.35.39:074][  0]CrashReportClientLog: Initial state = Unknown UploadState value
+[2016.05.25-13.35.39:074][  0]LogCrashDebugHelper: DepotName: UE4
+[2016.05.25-13.35.39:074][  0]LogCrashDebugHelper: BuiltFromCL: 0
+[2016.05.25-13.35.39:074][  0]LogCrashDebugHelper: EngineVersion: 4.11.0-0+UE4
+[2016.05.25-13.35.39:074][  0]LogCrashDebugHelper:Warning: CrashDebugHelperConfig invalid
+[2016.05.25-13.35.39:074][  0]LogCrashDebugHelper:Warning: PDB Cache disabled
+[2016.05.25-13.35.39:559][  0]CrashReportClientLog: OnProcessRequestComplete(), State=PingingServer bSucceeded=1
+[2016.05.25-13.35.39:559][  0]CrashReportClientLog: State change from PingingServer to Ready
+[2016.05.25-13.35.40:094][  0]CrashReportClientLog: Got 4 pending files to upload from 'crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD'
+[2016.05.25-13.35.40:094][  0]CrashReportClientLog: State change from Ready to CheckingReport
+[2016.05.25-13.35.40:094][  0]CrashReportClientLog: Sending HTTP request: http://crashreporter.epicgames.com:57005/CrashReporter/CheckReport
+[2016.05.25-13.35.40:094][  0]CrashReportClientLog: PostData Num: 60
+[2016.05.25-13.35.40:294][  0]CrashReportClientLog: OnProcessRequestComplete(), State=CheckingReport bSucceeded=1
+[2016.05.25-13.35.40:294][  0]CrashReportClientLog: Response->GetContentAsString(): '<CrashReporterResult bSuccess="true" ID="0" Message="" />'
+[2016.05.25-13.35.40:294][  0]CrashReportClientLog: ResultNode->GetAttribute(TEXT("bSuccess")) = true
+[2016.05.25-13.35.40:294][  0]CrashReportClientLog: State change from CheckingReport to CheckingReportDetail
+[2016.05.25-13.35.40:294][  0]CrashReportClientLog: Sending HTTP request: http://crashreporter.epicgames.com:57005/CrashReporter/CheckReportDetail
+[2016.05.25-13.35.40:294][  0]CrashReportClientLog: PostData Num: 1520
+[2016.05.25-13.35.40:494][  0]CrashReportClientLog: OnProcessRequestComplete(), State=CheckingReportDetail bSucceeded=1
+[2016.05.25-13.35.40:494][  0]CrashReportClientLog: Response->GetContentAsString(): '<CrashReporterResult bSuccess="true" ID="0" Message="" />'
+[2016.05.25-13.35.40:494][  0]CrashReportClientLog: ResultNode->GetAttribute(TEXT("bSuccess")) = true
+[2016.05.25-13.35.40:494][  0]CrashReportClientLog: State change from CheckingReportDetail to SendingFiles
+[2016.05.25-13.35.40:494][  0]CrashReportClientLog: CompressAndSendData have 4 pending files
+[2016.05.25-13.35.40:494][  0]CrashReportClientLog: CompressAndSendData compressing 36903 bytes ('/home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/UE4Game.log')
+[2016.05.25-13.35.40:496][  0]CrashReportClientLog: CompressAndSendData compressing 1520 bytes ('/home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/wermeta.xml')
+[2016.05.25-13.35.40:496][  0]CrashReportClientLog: CompressAndSendData compressing 4123 bytes ('/home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/diagnostics.txt')
+[2016.05.25-13.35.40:496][  0]CrashReportClientLog: CompressAndSendData compressing 4 bytes ('/home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/minidump.dmp')
+[2016.05.25-13.35.40:498][  0]CrashReportClientLog: Sending HTTP request: http://crashreporter.epicgames.com:57005/CrashReporter/UploadReportFile
+[2016.05.25-13.35.45:372][  0]CrashReportClientLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2016.05.25-13.35.45:372][  0]CrashReportClientLog: Sending HTTP request: http://crashreporter.epicgames.com:57005/CrashReporter/UploadComplete
+[2016.05.25-13.35.45:372][  0]CrashReportClientLog: State change from SendingFiles to PostingReportComplete
+[2016.05.25-13.35.49:883][  0]CrashReportClientLog: OnProcessRequestComplete(), State=PostingReportComplete bSucceeded=1
+[2016.05.25-13.35.49:883][  0]CrashReportClientLog: State change from PostingReportComplete to CheckingReport
+[2016.05.25-13.35.49:883][  0]CrashReportClientLog: All uploads done
+[2016.05.25-13.35.49:883][  0]CrashReportClientLog: State change from CheckingReport to Finished
+[2016.05.25-13.35.50:117][  0]CrashReportClientLog: Got 4 pending files to upload from 'crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD'
+[2016.05.25-13.35.50:117][  0]CrashReportClientLog: State change from Ready to SendingFiles
+[2016.05.25-13.35.50:117][  0]CrashReportClientLog: CompressAndSendData have 4 pending files
+[2016.05.25-13.35.50:118][  0]CrashReportClientLog: CompressAndSendData compressing 36903 bytes ('/home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/UE4Game.log')
+[2016.05.25-13.35.50:118][  0]CrashReportClientLog: CompressAndSendData compressing 1520 bytes ('/home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/wermeta.xml')
+[2016.05.25-13.35.50:118][  0]CrashReportClientLog: CompressAndSendData compressing 4123 bytes ('/home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/diagnostics.txt')
+[2016.05.25-13.35.50:118][  0]CrashReportClientLog: CompressAndSendData compressing 4 bytes ('/home/otiuz/Dev/Game/UnrealEngine/Engine/Binaries/Linux/crashinfo-UE4Game-pid-26796-0004CDE726050D190023005F0DE809AD/minidump.dmp')
+[2016.05.25-13.35.50:119][  0]CrashReportClientLog: Sending HTTP request: https://datarouter-public-service-prod06.ol.epicgames.com/datarouter/api/v1/public/data?AppID=CrashReporter&AppVersion=4.11.0-0%2BUE4&AppEnvironment=Release&UploadType=crashreports&UserID=000283370b051418000403c6e1fadf0a%7C%7C619d43a34b6949e5ab86ef5ff68cf818
+[2016.05.25-13.35.50:885][  0]CrashReportClientLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2016.05.25-13.35.50:885][  0]CrashReportClientLog: State change from SendingFiles to SendingFiles
+[2016.05.25-13.35.50:886][  0]CrashReportClientLog: All uploads done
+[2016.05.25-13.35.50:886][  0]CrashReportClientLog: State change from SendingFiles to Finished
+[2016.05.25-13.35.51:120][  0]LogGenericPlatformMisc: FPlatformMisc::RequestExit(0)
+[2016.05.25-13.35.51:153][  0]CrashReportClientLog: Final state (Receiver) = Finished
+[2016.05.25-13.35.51:153][  0]CrashReportClientLog: Final state (Receiver) = Finished
+[2016.05.25-13.35.51:153][  0]LogExit: Preparing to exit.
+[2016.05.25-13.35.51:153][  0]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.25-13.35.51:153][  0]LogExit: Object subsystem successfully closed.
+[2016.05.25-13.35.51:159][  0]LogExit: Exiting.
+[2016.05.25-13.35.51:159][  0]Log file closed, 05/25/16 13:35:51
