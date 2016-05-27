@@ -2,21 +2,21 @@
 *
 
 # These directories/files are commited
-!bin
-!.config*
+!bin/*
+!.config/*
 !.conkyrc
 !conkympd
-!Dev*
+!Dev/*
 !.fehbg
 !.gtkrc-2.0
-!.icons*
-!.local*
+!.icons/*
+!.local/*
 !.oh-my-zsh*
 !scripts*
-!.vim*
+!.vim/*
 !.vimrc
 !.xinitrc
-!.xmonad*
+!.xmonad/*
 !.Xresources
 !.zshrc
 !.zsh-update
