@@ -1,8 +1,8 @@
 # Ignore
 *
 */*
-.config/sublime-sublime-text-3/Local/*session*
-.
+.config/sublime--text-3/Local/*session*
+.config/spotify
 # These directories/files are commited
 !bin
 !.config/gtk-3.0
