@@ -14,9 +14,9 @@
 $
 
 # Command Line History (newest to oldest):
+:q
 :wq
 :set fileformat=unix
-:q
 :colors PaperColor
 :PluginInstall
 :colors papercolor
@@ -81,18 +81,20 @@ $
 		
 
 # File marks:
-'0  8  18  ~/.zshrc
-'1  1  0  ~/Downloads/RuneEvo/Rune-Evo v3/compile.sh
-'2  1  0  ~/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh
-'3  52  0  ~/scripts/tumblr-like conky/tumblr
-'4  1  0  ~/Pictures/mclaren_650s.jpg
-'5  1  0  ~/Pictures/bmw_m6.jpg
-'6  43  0  ~/.gitignore
-'7  33  0  ~/.gitignore
-'8  168  0  ~/.vim/bundle/papercolor-theme/colors/PaperColor.vim
-'9  82  0  ~/Dev/www/sec/main.js
+'0  95  0  ~/.vimrc
+'1  8  18  ~/.zshrc
+'2  1  0  ~/Downloads/RuneEvo/Rune-Evo v3/compile.sh
+'3  1  0  ~/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh
+'4  52  0  ~/scripts/tumblr-like conky/tumblr
+'5  1  0  ~/Pictures/mclaren_650s.jpg
+'6  1  0  ~/Pictures/bmw_m6.jpg
+'7  43  0  ~/.gitignore
+'8  33  0  ~/.gitignore
+'9  168  0  ~/.vim/bundle/papercolor-theme/colors/PaperColor.vim
 
 # Jumplist (newest first):
+-'  95  0  ~/.vimrc
+-'  1  0  ~/.vimrc
 -'  8  18  ~/.zshrc
 -'  1  0  ~/.zshrc
 -'  1  0  ~/Downloads/RuneEvo/Rune-Evo v3/compile.sh
@@ -114,7 +116,6 @@ $
 -'  28  0  ~/Dev/www/sec/index.html
 -'  21  0  ~/Dev/www/first/index.html
 -'  1  0  ~/Dev/www/first/index.html
--'  1  0  ~/.vimrc
 -'  71  4  ~/.vimrc
 -'  57  4  ~/.vimrc
 -'  57  0  ~/Dev/www/first/index.html
@@ -193,6 +194,19 @@ $
 -'  1473  2  ~/NERD_tree_1
 
 # History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	"	95	0
+	^	71	5
+	.	71	4
+	+	87	20
+	+	70	20
+	+	106	25
+	+	57	4
+	+	56	4
+	+	57	4
+	+	56	4
+	+	71	4
 
 > ~/.zshrc
 	"	8	18
@@ -284,19 +298,6 @@ $
 
 > ~/Dev/www/first/index.html
 	"	21	0
-
-> ~/.vimrc
-	"	1	0
-	^	71	5
-	.	71	4
-	+	87	20
-	+	70	20
-	+	106	25
-	+	57	4
-	+	56	4
-	+	57	4
-	+	56	4
-	+	71	4
 
 > ~/NERD_tree_1
 	"	4	0
