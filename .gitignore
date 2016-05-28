@@ -1,6 +1,8 @@
 # Ignore
 *
-*/*
+**
+.config/*
+.config/**
 .config/sublime-text-3/Local/*session*
 .config/sublime-text-3/Cache
 .config/sublime-text-3/Index
@@ -10,7 +12,8 @@ scripts/**
 !bin
 !.config/gtk-3.0
 !.config/mpd
-!.config/sublime-text-3
+!.config/sublime-text-3/Installed\ Packages
+!.config/sublime-text-3/Packages
 !.conkyrc
 !conkympd
 !Dev
