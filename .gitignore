@@ -1,7 +1,9 @@
 # Ignore
 *
 */*
-.config/sublime--text-3/Local/*session*
+.config/sublime-text-3/Local/*session*
+.config/sublime-text-3/Cache
+.config/sublime-text-3/Index
 .config/spotify
 scripts/**
 # These directories/files are commited
