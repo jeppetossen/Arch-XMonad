@@ -3,6 +3,7 @@
 */*
 .config/sublime--text-3/Local/*session*
 .config/spotify
+scripts/**
 # These directories/files are commited
 !bin
 !.config/gtk-3.0

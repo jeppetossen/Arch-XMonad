@@ -14,8 +14,9 @@
 $
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:set fileformat=unix
+:q
 :colors PaperColor
 :PluginInstall
 :colors papercolor
@@ -63,7 +64,6 @@ $
 :plugin
 :bundle
 :vundle
-:Plugin
 
 # Search String History (newest to oldest):
 ? \<conkympd\>
@@ -81,18 +81,22 @@ $
 		
 
 # File marks:
-'0  52  0  ~/scripts/tumblr-like conky/tumblr
-'1  1  0  ~/Pictures/mclaren_650s.jpg
-'2  1  0  ~/Pictures/bmw_m6.jpg
-'3  43  0  ~/.gitignore
-'4  33  0  ~/.gitignore
-'5  168  0  ~/.vim/bundle/papercolor-theme/colors/PaperColor.vim
-'6  82  0  ~/Dev/www/sec/main.js
-'7  1  0  ~/Dev/www/sec/index.html
-'8  28  0  ~/Dev/www/sec/index.html
-'9  21  0  ~/Dev/www/first/index.html
+'0  8  18  ~/.zshrc
+'1  1  0  ~/Downloads/RuneEvo/Rune-Evo v3/compile.sh
+'2  1  0  ~/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh
+'3  52  0  ~/scripts/tumblr-like conky/tumblr
+'4  1  0  ~/Pictures/mclaren_650s.jpg
+'5  1  0  ~/Pictures/bmw_m6.jpg
+'6  43  0  ~/.gitignore
+'7  33  0  ~/.gitignore
+'8  168  0  ~/.vim/bundle/papercolor-theme/colors/PaperColor.vim
+'9  82  0  ~/Dev/www/sec/main.js
 
 # Jumplist (newest first):
+-'  8  18  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  1  0  ~/Downloads/RuneEvo/Rune-Evo v3/compile.sh
+-'  1  0  ~/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh
 -'  52  0  ~/scripts/tumblr-like conky/tumblr
 -'  1  0  ~/scripts/tumblr-like conky/tumblr
 -'  1  0  ~/Pictures/mclaren_650s.jpg
@@ -187,14 +191,54 @@ $
 -'  1418  2  ~/NERD_tree_1
 -'  1443  0  ~/NERD_tree_1
 -'  1473  2  ~/NERD_tree_1
--'  1486  0  ~/NERD_tree_1
--'  1516  2  ~/NERD_tree_1
--'  21  0  ~/.vim/colors/dotshare.vim
--'  1532  0  ~/NERD_tree_1
--'  1562  2  ~/NERD_tree_1
--'  20  0  ~/.vim/colors/dotshare.vim
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	"	8	18
+	^	8	19
+	.	8	18
+	+	85	21
+	+	88	5
+	+	85	0
+	+	88	24
+	+	87	20
+	+	91	17
+	+	102	0
+	+	103	21
+	+	104	37
+	+	105	40
+	+	105	0
+	+	92	16
+	+	90	74
+	+	91	7
+	+	93	18
+	+	95	16
+	+	96	20
+	+	97	40
+	+	99	54
+	+	101	44
+	+	99	5
+	+	94	6
+	+	97	8
+	+	88	31
+	+	88	5
+	+	88	26
+	+	86	5
+	+	102	4
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	68	21
+	+	8	18
+
+> ~/Downloads/RuneEvo/Rune-Evo v3/compile.sh
+	"	1	0
+
+> ~/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh
+	"	1	0
 
 > ~/scripts/tumblr-like conky/tumblr
 	"	52	0

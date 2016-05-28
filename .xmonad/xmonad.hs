@@ -152,6 +152,7 @@ myKeys conf@(XConfig {XMonad.modMask = altMask}) = M.fromList $
 	, ((altMask,	xK_a),		spawn "atom")
 	, ((altMask,	xK_s),		spawn "steam")
 	, ((altMask,	xK_f),		spawn "firefox")
+	, ((altMask,	xK_Print),	spawn "screenshot")
 
 	, ((altMask,	xK_z),		sendMessage Expand)
 	, ((altMask,	xK_c),		sendMessage Shrink)

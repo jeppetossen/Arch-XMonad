@@ -1,6 +1,7 @@
 {
 	"folder_history":
 	[
+		"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718",
 		"/home/otiuz/.vim",
 		"/home/otiuz/Dev/Scripts/cpp",
 		"/home/otiuz/Dev/Scripts/C",
@@ -347,6 +348,38 @@
 				"selected_items":
 				[
 					[
+						"co",
+						"col"
+					],
+					[
+						"send",
+						"sendGameMessage"
+					],
+					[
+						"get",
+						"getPackets"
+					],
+					[
+						"ge",
+						"getPlayers"
+					],
+					[
+						"players",
+						"players"
+					],
+					[
+						"eq",
+						"equalsIgnoreCase"
+					],
+					[
+						"im",
+						"impl"
+					],
+					[
+						"dung",
+						"dungeons"
+					],
+					[
 						"Re",
 						"ResizableTile"
 					],
@@ -489,7 +522,23 @@
 			},
 			"file_history":
 			[
+				"/home/otiuz/Dev/Game/snake.cpp",
 				"/home/otiuz/.xmonad/xmonad.hs",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/src/com/rs/game/player/content/Commands.java",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/src/com/rs/game/player/Player.java",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/src/com/rs/Settings.java",
+				"/home/otiuz/Downloads/RuneEvo/Rune-Evo v3/Compile Server.bat",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/src/com/rs/net/Session.java",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/lib/FileStore/com/alex/store/Store.class",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/Model Dumper.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/ItemDefinitionsGenerator.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/Item List Dumper.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/Item Bonus Packer.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/DropEditor.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/RunServer.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/NPC List Dumper.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/ServerRestarter.bat",
 				"/home/otiuz/.vimrc",
 				"/home/otiuz/.xmonad/xmonad.hs.new",
 				"/home/otiuz/bin/dmenush",
@@ -548,13 +597,15 @@
 			],
 			"find":
 			{
-				"height": 73.0
+				"height": 75.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 167.0,
 				"where_history":
 				[
+					"compile.sh",
+					""
 				]
 			},
 			"find_state":
@@ -562,6 +613,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"javac",
+					"lib/*",
+					"deps",
+					"java",
 					"top",
 					"bar",
 					"$ smartBorders",
@@ -605,6 +660,9 @@
 				"regex": false,
 				"replace_history":
 				[
+					"\"lib/*\"",
+					"libs",
+					"javac"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -622,7 +680,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 38.0
+				"height": 37.0
 			},
 			"input":
 			{
@@ -664,7 +722,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 72.0
+				"height": 70.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -702,7 +760,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 264.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

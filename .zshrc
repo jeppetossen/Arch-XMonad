@@ -62,11 +62,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='nano'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -82,3 +82,24 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# List
+alias tree="tree -L 1"
+alias treed="tree -D -L 1"
+
+alias ls="ls --classify --tabsize=0 --literal --color=auto --human-readable"
+alias la="ls -a"
+alias ll="ls -l"
+alias lla="ls -la"
+# Disks
+alias df="df -h"
+alias free="free -h"
+# Network
+alias nlisten="lsof -i -P | grep LISTEN"
+# Logs
+alias termlog="tail -f --lines=100 $HOME/.zsh_history"
+alias paclog="tail -f --lines=10000000000000 $HOME/.zsh_history | grep pacman"
+# Vim
+alias svim="sudo vim"
+alias xmvim="vim ~/.xmonad/xmonad.hs"
+alias grvim="sudo vim /boot/grub/grub.cfg"
