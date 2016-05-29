@@ -1,6 +1,6 @@
 !URxvt.font: xft:Droid Sans Mono:pixelsize=14
-URxvt.font: xft:Hack-Regular:pixelsize=14:antialias=true:hinting=true
-URxvt*letterSpace: 0
+URxvt.font: xft:Droid Sans Mono for Powerline:pixelsize=15:antialias=true:hinting=true
+URxvt*letterSpace: 1
 
 URxvt.depth: 24
 *scrollstyle: plain

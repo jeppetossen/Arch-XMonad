@@ -41,9 +41,11 @@ let g:airline_powerline_fonts=1
   Bundle 'Twinside/vim-codeoverview'
   Bundle 'neovimhaskell/haskell-vim'
   Plugin 'alvan/vim-closetag'
-  Plugin 'vim-scripts/Smart-Tabs'
+  Plugin 'airblade/vim-gitgutter'
+  Plugin 'itchyny/lightline.vim'
 
 " Themes
+  Plugin 'vim-airline/vim-airline-themes'
   Bundle 'KKPMW/moonshine-vim'
   Bundle 'hewo/vim-colorscheme-deepsea'
   Bundle 'thomd/vim-wasabi-colorscheme'
@@ -77,7 +79,7 @@ let g:NERDTreeIndicatorMapCustom = {
     set completeopt=menuone,longest,preview
 
 " Powerline
-    set guifont=Hack-Regular
+    set guifont="Source Code Pro"
     let g:Powerline_symbols = 'fancy'
 " }}}
 
@@ -90,6 +92,7 @@ let g:NERDTreeIndicatorMapCustom = {
     set mouse=a                    " Enable mouse
     set hidden                     " Quick buffer switching
     set ruler                      " Show cursor position
+    set noshowmode
 " }}}
 
 " Syntax
@@ -105,7 +108,7 @@ let g:NERDTreeIndicatorMapCustom = {
     set laststatus=2               " Show statusline even when no window split 
     set background=dark
     colorscheme PaperColor
-    set gfn=inconsolata
+    set gfn="Droid Sans Mono for Powerline"
     set number                     " Line numbers
     set cursorline                 " Highlights cursor line
     set scrolloff=2                " Keep 2 scroll lines above/below cursor
@@ -136,7 +139,7 @@ let g:NERDTreeIndicatorMapCustom = {
 " }}}
     
 " Tab Settings {{{
-    set expandtab                  " Tab -> Space
+    set noexpandtab                " Tab -> Space
     set tabstop=4                  " Tabs count for 4 columns
     set softtabstop=4              " Tab == 4 spaces
     set shiftwidth=4               " 4 Columns with reindent options
@@ -145,7 +148,7 @@ let g:NERDTreeIndicatorMapCustom = {
     set smartindent                " Except with capitals
     set pastetoggle=<F2>           " Disabling autoindent while pasting
 " }}}
-    
+
 " Searching and History Settings {{{
     set nohlsearch
     set incsearch                  " Increment search
