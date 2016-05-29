@@ -1,0 +1,108 @@
+M+ FONTS                                Copyright (C) 2003-2006 M+ FONTS PROJECT
+
+-
+
+README_J
+
+
+
+
+■ M+ TESTFLIGHT
+
+M+ OUTLINE FONTS に興味をお持ちいただき、ありがとうございます。
+この試用版のフォントは M+ 1 と M+ 2 の 2 種類のかな文字と
+基本的な英数字（プロポーショナル）を有し、各々 7 段階のウェイトからなる、
+以下 14 種類の ttf ファイルで形成されています。
+
+	mplus-1p-thin.ttf
+	mplus-1p-light.ttf
+	mplus-1p-regular.ttf
+	mplus-1p-medium.ttf
+	mplus-1p-bold.ttf
+	mplus-1p-heavy.ttf
+	mplus-1p-black.ttf
+	
+	mplus-2p-thin.ttf
+	mplus-2p-light.ttf
+	mplus-2p-regular.ttf
+	mplus-2p-medium.ttf
+	mplus-2p-bold.ttf
+	mplus-2p-heavy.ttf
+	mplus-2p-black.ttf
+
+基本的にかな文字以外は共通となっていますが、英数字などの一部を修正して
+各々のかな文字が持つ雰囲気に合わせています。
+
+
+■ 他のフォントからの漢字補完
+
+M+ OUTLINE FONTS を使用する環境によって自動的に、または必要に応じた設定で、
+漢字などの未着手文字を他の和文フォントから補完させる事が出来ます。
+
+・ UNIX/Linux (XFT)
+
+自動的に補完されますが、任意の和文フォントから補完させたい場合は
+fonts.conf の設定が必要です。
+
+・ Mac OS X 10.4
+
+Safari.app や TextEdit.app などでは自動的にヒラギノ角ゴから補完され、
+太字にも対応しています。
+注）FireFox では後述の「IPA フォントとの合成フォント」も含め、
+正常に表示されません。
+
+・ Windows XP
+
+フォントリンクの設定で補完されますが、補完された文字が正常に表示されない様です。
+後述の「IPA フォントとの合成」、
+または「合成済みフォント *1」を試してみてください。
+
+*1 http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/links.html#comb
+
+
+■ IPA フォントとの合成
+
+同梱の m++ipag.pe スクリプトと IPA フォント（ipag.ttf）、fontforge プログラムを
+使用して、合成フォントを生成する事が出来ます。M+ TESTFLIGHT に含まれている
+フォントが正常に表示されなかったり、漢字が補完されない場合は是非お試しください。
+
+・ IPA フォントとの合成に必要なファイルとプログラム
+
+	m++ipag.pe（M+ TESTFLIGHT に同梱）
+	mplus-1p-regular.ttf（M+ TESTFLIGHT に同梱）
+	mplus-2p-regular.ttf（M+ TESTFLIGHT に同梱）
+	ipag.ttf *2
+	fontforge *3
+
+*2 http://www.grass-japan.org/FOSS4G/readme-grass-i18n-ipafonts.eucjp.htm
+*3 http://fontforge.sourceforge.net/
+
+・ 合成フォントの生成
+
+m++ipag.pe と mplus-1p-regular.ttf、mplus-2p-regular.ttf、ipag.ttf を同じ
+ディレクトリに配置して、以下のコマンドを実行します。
+-
+$ ./m++ipag.pe
+-
+M+1+IPAG.ttf と M+2+IPAG.ttf が生成されますので、IPA フォントのライセンスに
+従ってご利用ください。
+Mac OS X 上でインストールする際に警告画面が表示される場合もありますが、
+チェック欄を埋め、強制的にインストールする事でご利用いただく事が出来ます。
+
+
+
+
+■ お問い合わせ
+
+M+ OUTLINE FONTS の詳細、お問い合わせなどは以下の URL をご利用ください。
+
+-
+
+M+ OUTLINE FONTS
+http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/
+
+mplus-fonts-dev ML
+http://lists.sourceforge.jp/mailman/listinfo/mplus-fonts-dev
+
+M+ FONTS open forum
+http://sourceforge.jp/forum/forum.php?forum_id=3403

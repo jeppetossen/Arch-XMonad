@@ -1,0 +1,40 @@
+#!/usr/bin/env fontforge -script
+
+Mplus1p = "mplus-1p-regular.ttf"
+Mplus2p = "mplus-2p-regular.ttf"
+KanjiFont = "ipag.ttf"
+
+Mplus1p_kanji = "M+1P+IPAG"
+Mplus2p_kanji = "M+2P+IPAG"
+
+if (FileAccess(Mplus1p)<0 || FileAccess(Mplus2p)<0 || FileAccess(KanjiFont)<0)
+	Print("                                                    ")
+	Print("                       USAGE:                       ")
+	Print("                                                    ")
+	Print(" 1) put these three files on current directory.     ")
+        Print("      mplus-1p-regular.ttf                          ")
+        Print("      mplus-2p-regular.ttf                          ")
+        Print("      ipag.ttf                                      ")
+	Print(" 2) run this script by fontforge.                   ")
+        Print("      /usr/local/bin/fontforge -script m++ipa.pe    ")
+	Print(" 3) two new file will be created.                   ")
+        Print("      m+1p+ipag.ttf                                 ")
+        Print("      m+2p+ipag.ttf                                 ")
+	Print("                                                    ")
+	Quit()
+endif
+
+family = Mplus1p_kanji
+Open(Mplus1p);
+MergeFonts(KanjiFont);
+SetFontNames(family + "-Regular", family, family + " Regular", "Regular", "")
+Generate(family + ".ttf", "", 4)
+Close()
+
+family = Mplus2p_kanji
+Open(Mplus2p);
+MergeFonts(KanjiFont);
+SetFontNames(family + "-Regular", family, family + " Regular", "Regular", "")
+Generate(family + ".ttf", "", 4)
+Close()
+
