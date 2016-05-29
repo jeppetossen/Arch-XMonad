@@ -104,6 +104,7 @@ alias gupd="git push origin master"
 alias gimmit="git commit"
 alias gim="git commit -m "
 alias gadd="git add ."
+alias gatus="git status"
 # Vim
 alias svim="sudo vim"
 alias xmvim="vim ~/.xmonad/xmonad.hs"
