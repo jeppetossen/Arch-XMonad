@@ -1,29 +1,20 @@
-# Ignore
-.*
 *
-**
-.config/*
-.config/**
-.config/sublime-text-3/Local/*session*
-.config/sublime-text-3/Cache
-.config/sublime-text-3/Index
-.config/spotify
-scripts/**
-# These directories/files are commited
+.*
+
 !bin
 !.config/gtk-3.0
 !.config/mpd
 !.config/sublime-text-3/Installed\ Packages
 !.config/sublime-text-3/Packages
+!.conkympd
 !.conkyrc
-!conkympd
 !Dev
 !.fehbg
 !.gtkrc-2.0
 !.icons
-!.local/fonts
-!.local/icons
-!.local/themes
+!.local/share/fonts
+!.local/share/icons
+!.local/share/themes
 !.oh-my-zsh
 !scripts
 !.vim
@@ -33,5 +24,3 @@ scripts/**
 !.Xresources
 !.zshrc
 !.zsh-update
-
-!.gitignore
