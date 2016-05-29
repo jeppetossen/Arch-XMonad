@@ -99,6 +99,11 @@ alias nlisten="lsof -i -P | grep LISTEN"
 # Logs
 alias termlog="tail -f --lines=100 $HOME/.zsh_history"
 alias paclog="tail -f --lines=10000000000000 $HOME/.zsh_history | grep pacman"
+# Git
+alias gupd="git push origin master"
+alias gimmit="git commit"
+alias gim="git commit -m "
+alias gadd="git add ."
 # Vim
 alias svim="sudo vim"
 alias xmvim="vim ~/.xmonad/xmonad.hs"
