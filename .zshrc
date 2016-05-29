@@ -102,7 +102,7 @@ alias paclog="tail -f --lines=10000000000000 $HOME/.zsh_history | grep pacman"
 # Git
 alias gupd="git push origin master"
 alias gimmit="git commit"
-alias gim="git commit -m "
+alias gim="git commit -m"
 alias gadd="git add ."
 alias gatus="git status"
 # Vim
