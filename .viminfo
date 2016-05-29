@@ -15,6 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :q
+:q!
 :wq
 :set fileformat=unix
 :colors PaperColor
@@ -42,7 +43,6 @@ $
 :let g:haskell_enable_recursivedo = 1
 :let g:haskell_enable_quantification = 1
 :Q
-:q!
 :colorscheme nugen
 :colorscheme nugen.vim
 :h hi-normal
@@ -81,18 +81,20 @@ $
 		
 
 # File marks:
-'0  95  0  ~/.vimrc
-'1  8  18  ~/.zshrc
-'2  1  0  ~/Downloads/RuneEvo/Rune-Evo v3/compile.sh
-'3  1  0  ~/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh
-'4  52  0  ~/scripts/tumblr-like conky/tumblr
-'5  1  0  ~/Pictures/mclaren_650s.jpg
-'6  1  0  ~/Pictures/bmw_m6.jpg
-'7  43  0  ~/.gitignore
-'8  33  0  ~/.gitignore
-'9  168  0  ~/.vim/bundle/papercolor-theme/colors/PaperColor.vim
+'0  1  0  ~/.xmonad/xmonad.hs
+'1  99  0  ~/.xmonad/xmonad.hs
+'2  95  0  ~/.vimrc
+'3  8  18  ~/.zshrc
+'4  1  0  ~/Downloads/RuneEvo/Rune-Evo v3/compile.sh
+'5  1  0  ~/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh
+'6  52  0  ~/scripts/tumblr-like conky/tumblr
+'7  1  0  ~/Pictures/mclaren_650s.jpg
+'8  1  0  ~/Pictures/bmw_m6.jpg
+'9  43  0  ~/.gitignore
 
 # Jumplist (newest first):
+-'  1  0  ~/.xmonad/xmonad.hs
+-'  99  0  ~/.xmonad/xmonad.hs
 -'  95  0  ~/.vimrc
 -'  1  0  ~/.vimrc
 -'  8  18  ~/.zshrc
@@ -125,7 +127,6 @@ $
 -'  130  0  ~/Dev/Scripts/cpp/arch.cpp
 -'  1  0  ~/Dev/Scripts/cpp/arch.cpp
 -'  65  0  ~/.xmonad/xmonad.hs
--'  1  0  ~/.xmonad/xmonad.hs
 -'  102  0  ~/.xmonad/xmonad.hs
 -'  173  0  ~/.xmonad/xmonad.hs
 -'  132  37  ~/.xmonad/xmonad.hs
@@ -190,10 +191,37 @@ $
 -'  1374  2  ~/NERD_tree_1
 -'  1388  0  ~/NERD_tree_1
 -'  1418  2  ~/NERD_tree_1
--'  1443  0  ~/NERD_tree_1
--'  1473  2  ~/NERD_tree_1
 
 # History of marks within files (newest to oldest):
+
+> ~/.xmonad/xmonad.hs
+	"	1	0
+	^	156	4
+	.	156	3
+	+	73	52
+	+	75	50
+	+	74	38
+	+	73	57
+	+	23	2
+	+	29	1
+	+	22	0
+	+	21	0
+	+	73	51
+	+	22	2
+	+	21	2
+	+	73	32
+	+	74	36
+	+	75	30
+	+	76	28
+	+	77	27
+	+	78	30
+	+	73	52
+	+	75	51
+	+	73	39
+	+	159	13
+	+	133	38
+	+	134	0
+	+	156	3
 
 > ~/.vimrc
 	"	95	0
@@ -482,34 +510,6 @@ $
 	.	1	0
 	+	1	0
 	+	1	0
-
-> ~/.xmonad/xmonad.hs
-	"	65	0
-	^	133	38
-	.	134	0
-	+	73	52
-	+	75	50
-	+	74	38
-	+	73	57
-	+	23	2
-	+	29	1
-	+	22	0
-	+	21	0
-	+	73	51
-	+	22	2
-	+	21	2
-	+	73	32
-	+	74	36
-	+	75	30
-	+	76	28
-	+	77	27
-	+	78	30
-	+	73	52
-	+	75	51
-	+	73	39
-	+	159	13
-	+	133	38
-	+	134	0
 
 > ~/.vim/NERD_tree_1
 	"	4	0

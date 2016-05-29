@@ -1,9 +1,12 @@
 {
 	"folder_history":
 	[
+		"/home/otiuz/Dev/Scripts/cpp",
+		"/home/otiuz/.xmonad",
+		"/usr/share/themes/Arc-Dark",
+		"/usr/share/themes/Numix/gtk-3.0",
 		"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718",
 		"/home/otiuz/.vim",
-		"/home/otiuz/Dev/Scripts/cpp",
 		"/home/otiuz/Dev/Scripts/C",
 		"/home/otiuz/Dev/Scripts/ObjC",
 		"/home/otiuz/Dev/Scripts/CS",
@@ -12,17 +15,53 @@
 		"/home/otiuz/Downloads/www/first"
 	],
 	"last_version": 3114,
-	"last_window_id": 10,
+	"last_window_id": 11,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 718.0,
+		"new_window_height": 714.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"co",
+						"col"
+					],
+					[
+						"send",
+						"sendGameMessage"
+					],
+					[
+						"get",
+						"getPackets"
+					],
+					[
+						"ge",
+						"getPlayers"
+					],
+					[
+						"players",
+						"players"
+					],
+					[
+						"eq",
+						"equalsIgnoreCase"
+					],
+					[
+						"im",
+						"impl"
+					],
+					[
+						"dung",
+						"dungeons"
+					],
+					[
+						"Re",
+						"ResizableTile"
+					],
 					[
 						"n",
 						"n"
@@ -158,13 +197,33 @@
 			},
 			"file_history":
 			[
+				"/home/otiuz/Dev/Scripts/bash/toplists.sh",
+				"/home/otiuz/Dev/Scripts/cpp/arch.cpp",
+				"/home/otiuz/Dev/Scripts/arch.sh",
+				"/home/otiuz/Dev/Game/snake.cpp",
+				"/home/otiuz/.xmonad/xmonad.hs",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/src/com/rs/game/player/content/Commands.java",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/src/com/rs/game/player/Player.java",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/src/com/rs/Settings.java",
+				"/home/otiuz/Downloads/RuneEvo/Rune-Evo v3/Compile Server.bat",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/src/com/rs/net/Session.java",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/lib/FileStore/com/alex/store/Store.class",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/Model Dumper.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/ItemDefinitionsGenerator.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/Item List Dumper.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/Item Bonus Packer.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/DropEditor.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/RunServer.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/NPC List Dumper.sh",
+				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/ServerRestarter.bat",
+				"/home/otiuz/.vimrc",
+				"/home/otiuz/.xmonad/xmonad.hs.new",
+				"/home/otiuz/bin/dmenush",
 				"/home/otiuz/Downloads/UnrealEngine/GenerateProjectFiles.sh",
 				"/home/otiuz/Downloads/UnrealEngine/Setup.sh",
 				"/home/otiuz/Downloads/UnrealEngine/UE4Source.pri",
-				"/home/otiuz/bin/dmenush",
-				"/home/otiuz/.xmonad/xmonad.hs",
 				"/home/otiuz/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-				"/home/otiuz/Dev/Scripts/cpp/arch.cpp",
 				"/home/otiuz/Dev/Scripts/cpp/headers/submenus.h",
 				"/home/otiuz/Dev/Scripts/cpp/headers/suboptions.h",
 				"/home/otiuz/Dev/Scripts/cpp/headers/msg.h",
@@ -179,7 +238,6 @@
 				"/home/otiuz/.config/sublime-text-3/Packages/User/C#.sublime-settings",
 				"/home/otiuz/.config/sublime-text-3/Packages/User/Plain text.sublime-settings",
 				"/home/otiuz/Dev/Scripts/CS/arch.sublime-project",
-				"/home/otiuz/Dev/Scripts/arch.sh",
 				"/home/otiuz/scripts/mpd.sh",
 				"/home/otiuz/Dev/CPP/test.cpp",
 				"/home/otiuz/Dev/www/sec/main.js",
@@ -204,7 +262,6 @@
 				"/home/otiuz/scripts/conky_spotify",
 				"/home/otiuz/scripts/dzenpanel.sh",
 				"/home/otiuz/scripts/spotify_playing.sh",
-				"/home/otiuz/.vimrc",
 				"/home/otiuz/.vim/colors/nugen.vim",
 				"/home/otiuz/.vim/colors/dotshare",
 				"/home/otiuz/.xmonad/xmonad.bk",
@@ -220,9 +277,11 @@
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 167.0,
 				"where_history":
 				[
+					"compile.sh",
+					""
 				]
 			},
 			"find_state":
@@ -230,6 +289,12 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"javac",
+					"lib/*",
+					"deps",
+					"java",
+					"top",
+					"bar",
 					"$ smartBorders",
 					"user",
 					"home",
@@ -271,6 +336,9 @@
 				"regex": false,
 				"replace_history":
 				[
+					"\"lib/*\"",
+					"libs",
+					"javac"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -280,7 +348,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 38.0
+				"height": 37.0
 			},
 			"input":
 			{
@@ -298,7 +366,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 72.0
+				"height": 70.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -332,13 +400,13 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 264.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1354.0
+		"new_window_width": 670.0
 	},
 	"windows":
 	[
@@ -431,6 +499,22 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/otiuz/Dev/Scripts/cpp/headers/suboptions.h",
+					"settings":
+					{
+						"buffer_size": 262,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/otiuz/.xmonad/xmonad.hs",
+					"settings":
+					{
+						"buffer_size": 7099,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -520,8 +604,16 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/home/otiuz/Dev/Scripts/cpp",
+				"/home/otiuz/Dev/Scripts/cpp/headers"
+			],
 			"file_history":
 			[
+				"/home/otiuz/Dev/Scripts/bash/toplists.sh",
+				"/home/otiuz/Dev/Scripts/cpp/arch.cpp",
+				"/home/otiuz/Dev/Scripts/arch.sh",
 				"/home/otiuz/Dev/Game/snake.cpp",
 				"/home/otiuz/.xmonad/xmonad.hs",
 				"/home/otiuz/Downloads/Chronic/Chronicscape AIO v4.5/Chronicscape 718/compile.sh",
@@ -546,7 +638,6 @@
 				"/home/otiuz/Downloads/UnrealEngine/Setup.sh",
 				"/home/otiuz/Downloads/UnrealEngine/UE4Source.pri",
 				"/home/otiuz/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-				"/home/otiuz/Dev/Scripts/cpp/arch.cpp",
 				"/home/otiuz/Dev/Scripts/cpp/headers/submenus.h",
 				"/home/otiuz/Dev/Scripts/cpp/headers/suboptions.h",
 				"/home/otiuz/Dev/Scripts/cpp/headers/msg.h",
@@ -561,7 +652,6 @@
 				"/home/otiuz/.config/sublime-text-3/Packages/User/C#.sublime-settings",
 				"/home/otiuz/.config/sublime-text-3/Packages/User/Plain text.sublime-settings",
 				"/home/otiuz/Dev/Scripts/CS/arch.sublime-project",
-				"/home/otiuz/Dev/Scripts/arch.sh",
 				"/home/otiuz/scripts/mpd.sh",
 				"/home/otiuz/Dev/CPP/test.cpp",
 				"/home/otiuz/Dev/www/sec/main.js",
@@ -597,7 +687,7 @@
 			],
 			"find":
 			{
-				"height": 75.0
+				"height": 35.0
 			},
 			"find_in_files":
 			{
@@ -670,17 +760,80 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/home/otiuz/Dev/Scripts/cpp"
+				}
+			],
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/otiuz/Dev/Scripts/cpp/headers/suboptions.h",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 262,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 588.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/otiuz/.xmonad/xmonad.hs",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7099,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4153,
+										4153
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Haskell/Haskell.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3360.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 37.0
+				"height": 35.0
 			},
 			"input":
 			{
@@ -722,7 +875,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 70.0
+				"height": 66.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -765,7 +918,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 9,
+			"window_id": 11,
 			"workspace_name": ""
 		}
 	],
