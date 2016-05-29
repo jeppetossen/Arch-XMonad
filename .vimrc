@@ -10,7 +10,6 @@ let g:airline_powerline_fonts=1
     " Github Repos
   Bundle 'VundleVim/Vundle.vim'
 
-"  Bundle 'Townk/vim-autoclose'
   Bundle 'scrooloose/syntastic'
     " vim-scripts Repos
   Bundle 'jellybeans.vim'
@@ -41,6 +40,8 @@ let g:airline_powerline_fonts=1
   Bundle 'shemerey/vim-project'
   Bundle 'Twinside/vim-codeoverview'
   Bundle 'neovimhaskell/haskell-vim'
+  Plugin 'alvan/vim-closetag'
+  Plugin 'vim-scripts/Smart-Tabs'
 
 " Themes
   Bundle 'KKPMW/moonshine-vim'
@@ -164,3 +165,5 @@ let g:NERDTreeIndicatorMapCustom = {
 " Suffixes that get lower priority when doing tab completion for filenames.
 " These are files we are not likely to want to edit or read.
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
+
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml"
