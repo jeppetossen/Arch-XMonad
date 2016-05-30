@@ -45,6 +45,11 @@
         endif
     """ }}}
     
+""" Keybindings
+    if filereadable($HOME."/.vim/.vimrc.mappings")
+        source $HOME/.vim/.vimrc.mappings
+    endif
+    
 """ User interface {{{
     """ Syntax highlighting {{{
         filetype plugin indent on                   " detect file plugin+indent
@@ -212,56 +217,6 @@
         endif
     """ }}}
 """ }}}
-""" Keybindings {{{
-    """ General {{{
-        " Remap <leader>
-        let mapleader=","
-
-        " Quickly edit/source .vimrc
-        noremap <leader>ve :edit $HOME/.vimrc<CR>
-        noremap <leader>vs :source $HOME/.vimrc<CR>
-
-        " Yank(copy) to system clipboard
-        noremap <leader>y "+y
-
-        " Toggle pastemode, doesn't indent
-        set pastetoggle=<F3>
-
-        " Toggle folding
-        " http://vim.wikia.com/wiki/Folding#Mappings_to_toggle_folds
-        nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
-
-        " Bubbling (bracket matching)
-        nmap <C-up> [e
-        nmap <C-down> ]e
-        vmap <C-up> [egv
-        vmap <C-down> ]egv
-
-        " Scroll up/down lines from 'scroll' option, default half a screen
-        map <C-j> <C-d>
-        map <C-k> <C-u>
-
-        " Treat wrapped lines as normal lines
-        nnoremap j gj
-        nnoremap k gk
-
-        " We don't need any help!
-        inoremap <F1> <nop>
-        nnoremap <F1> <nop>
-        vnoremap <F1> <nop>
-
-        " Disable annoying ex mode (Q)
-        map Q <nop>
-
-        " Buffers, preferred over tabs now with bufferline.
-        nnoremap gn :bnext<CR>
-        nnoremap gN :bprevious<CR>
-        nnoremap gd :bdelete<CR>
-        nnoremap gf <C-^>
-
-        " Highlight last inserted text
-        nnoremap gV '[V']
-    """ }}}
     """ Functions and/or fancy keybinds {{{
         """ Toggle syntax highlighting {{{
             function! ToggleSyntaxHighlighthing()
@@ -445,58 +400,6 @@
             autocmd InsertLeave * if pumvisible() == 0 | pclose | endif
         augroup END
     """ }}}
-    """ Lightline {{{
-       " let g:lightline = {
-        "    \ 'colorscheme': 'jellybeans',
-        "    \ 'active': {
-        "    \     'left': [
-        "    \         ['mode', 'paste'],
-        "    \         ['readonly', 'fugitive'],
-        "    \         ['ctrlpmark', 'bufferline']
-        "    \     ],
-        "    \     'right': [
-        "    \         ['lineinfo'],
-        "    \         ['percent'],
-        "    \         ['fileformat', 'fileencoding', 'filetype', 'syntastic']
-        "    \     ]
-        "    \ },
-        "    \ 'component': {
-        "    \     'paste': '%{&paste?"!":""}'
-        "    \ },
-        "    \ 'component_function': {
-        "    \     'mode'         : 'MyMode',
-        "    \     'fugitive'     : 'MyFugitive',
-        "    \     'readonly'     : 'MyReadonly',
-        "    \     'ctrlpmark'    : 'CtrlPMark',
-        "    \     'bufferline'   : 'MyBufferline',
-        "    \     'fileformat'   : 'MyFileformat',
-        "    \     'fileencoding' : 'MyFileencoding',
-        "    \     'filetype'     : 'MyFiletype'
-        "    \ },
-        "    \ 'component_expand': {
-        "    \     'syntastic': 'SyntasticStatuslineFlag',
-        "    \ },
-        "    \ 'component_type': {
-        "    \     'syntastic': 'middle',
-        "    \ },
-        "    \ 'subseparator': {
-        "    \     'left': '|', 'right': '|'
-        "    \ }
-        "    \ }
-
-        " Ensure that each mode indicator is the same size and casing
-        "let g:lightline.mode_map = {
-         "   \ 'n'      : ' N ',
-         "   \ 'i'      : ' I ',
-         "   \ 'R'      : ' R ',
-         "   \ 'v'      : ' V ',
-         "   \ 'V'      : 'V-L',
-         "   \ 'c'      : ' C ',
-         "   \ "\<C-v>" : 'V-B',
-         "   \ 's'      : ' S ',
-         "   \ 'S'      : 'S-L',
-         "   \ "\<C-s>" : 'S-B',
-         "    \ '?'      : '      ' }
 
         function! MyMode()
             let fname = expand('%:t')
@@ -597,9 +500,4 @@
                 \" autocmd BufWritePost <buffer> :call s:syntastic()"
         augroup END
     """ }}}
-""" }}}
-""" Local ending config, will overwrite anything above. Generally use this. {{{
-    if filereadable($HOME."/.vimrc.last")
-        source $HOME/.vimrc.last
-    endif
 """ }}}
