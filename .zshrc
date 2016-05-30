@@ -56,6 +56,8 @@ plugins=(git)
   export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/scripts:$HOME/scripts/spotify"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+xset s off -dpms
+
 if [[ ! -f $HOME/.vimrc  ]]; then
     export VIMRC='~/.vim/.vimrc'
 fi
@@ -65,6 +67,8 @@ if [[ -f $HOME/.zshrc  ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
