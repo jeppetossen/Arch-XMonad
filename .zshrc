@@ -60,10 +60,6 @@ if [[ ! -f $HOME/.vimrc  ]]; then
     export VIMRC='~/.vim/.vimrc'
 fi
 
-if [[ -f $HOME/.xmonad/xmonad.hs  ]]; then
-    export WMCONFIG='~/.xmonad/xmonad.hs'
-fi
-
 if [[ -f $HOME/.zshrc  ]]; then
     export ZSHRC='~/.zshrc'
 fi

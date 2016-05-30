@@ -327,7 +327,7 @@
     """ Startify {{{
         let g:startify_bookmarks = [
             \ $VIMRC, "~/.vim/.vimrc.plugins",
-            \ $ZSHRC, $WMCONFIG
+            \ $ZSHRC, "~/.xmonad/xmonad.hs"
             \ ]
             "\ $HOME . "/.vimrc", $HOME . "/.vimrc.first",
             "\ $HOME . "/.vimrc.last", $HOME . "/.vimrc.plugins"
