@@ -107,5 +107,6 @@ alias gadd="git add ."
 alias gatus="git status"
 # Vim
 alias svim="sudo vim"
+alias vimrc="vim ~/.vimrc"
 alias xmvim="vim ~/.xmonad/xmonad.hs"
 alias grvim="sudo vim /boot/grub/grub.cfg"
