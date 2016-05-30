@@ -4,8 +4,7 @@
 !bin
 !.config/gtk-3.0
 !.config/mpd
-#!.config/sublime-text-3/Installed\ Packages
-#!.config/sublime-text-3/Packages
+!.config/sublime-text-3/Installed\ Packages
 !.conkympd
 !.conkyrc
 !Dev
