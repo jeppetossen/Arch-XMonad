@@ -56,6 +56,10 @@ plugins=(git)
   export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/scripts:$HOME/scripts/spotify"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+if [[ ! -f $HOME/.vimrc  ]]; then
+    export VIMRC='$HOME/.vim/.vimrc'
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
@@ -98,7 +102,7 @@ alias free="free -h"
 alias nlisten="lsof -i -P | grep LISTEN"
 # Logs
 alias termlog="tail -f --lines=100 $HOME/.zsh_history"
-alias paclog="tail -f --lines=10000000000000 $HOME/.zsh_history | grep pacman"
+alias paclog="tail -f --ilines=10000000000000000000000000000 $HOME/.zsh_history | grep pacman"
 # Git
 alias gupd="git push origin master"
 alias gimmit="git commit"
@@ -107,6 +111,9 @@ alias gadd="git add ."
 alias gatus="git status"
 # Vim
 alias svim="sudo vim"
-alias vimrc="vim ~/.vimrc"
-alias xmvim="vim ~/.xmonad/xmonad.hs"
-alias grvim="sudo vim /boot/grub/grub.cfg"
+alias vim="vim -u $HOME/.vim/.vimrc"
+alias vimrc="vim $VIMRC"
+alias vimsh="vim $HOME/.zshrc"
+alias vimp="vim -p"
+alias xmvim="vim $HOME/.xmonad/xmonad.hs"
+alias grvim="svim /boot/grub/grub.cfg"

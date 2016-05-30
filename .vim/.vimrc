@@ -3,7 +3,7 @@
 """ }}}
 """ Automatically create needed files and folders on first run (*nix only) {{{
     call system("mkdir -p $HOME/.vim/{swap,undo}")
-    if !filereadable($HOME."/.vimrc.plugins") | call system("touch $HOME/.vimrc.plugins") | endif
+    if !filereadable($HOME."/.vim/.vimrc.plugins") | call system("touch $HOME/.vim/.vimrc.plugins") | endif
     """ }}}
     
 """ Vundle plugin manager {{{
@@ -14,7 +14,7 @@
             echo "Installing Vundle..."
             echo ""
             silent !mkdir -p $HOME/.vim/bundle
-            silent !git clone https://github.com/gmarik/Vundle.vim $HOME/.vim/bundle/Vundle.vim
+            silent !git clone https://github.com/VundleVim/Vundle.vim $HOME/.vim/bundle/Vundle.vim
             let has_vundle=0
         endif
     """ }}}
@@ -26,11 +26,11 @@
     """ }}}
     
     """ Github repos, uncomment to disable a plugin {{{
-        Plugin 'gmarik/Vundle.vim'
+        Plugin 'VundleVim/Vundle.vim'
 
         """ Local plugins (and only plugins in this file!) {{{
-            if filereadable($HOME."/.vimrc.plugins")
-                source $HOME/.vimrc.plugins
+            if filereadable($HOME."/.vim/.vimrc.plugins")
+                source $HOME/.vim/.vimrc.plugins
             endif
         """ }}}
     """ }}}
