@@ -326,9 +326,12 @@
 """ Plugin settings {{{
     """ Startify {{{
         let g:startify_bookmarks = [
-            \ $HOME . "/.vimrc", $HOME . "/.vimrc.first",
-            \ $HOME . "/.vimrc.last", $HOME . "/.vimrc.plugins"
+            \ $VIMRC, "~/.vim/.vimrc.plugins",
+            \ $ZSHRC, $WMCONFIG
             \ ]
+            "\ $HOME . "/.vimrc", $HOME . "/.vimrc.first",
+            "\ $HOME . "/.vimrc.last", $HOME . "/.vimrc.plugins"
+            "\ ]
         let g:startify_custom_header = [
             \ '   http://github.com/timss/vimconf',
             \ ''

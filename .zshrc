@@ -57,7 +57,15 @@ plugins=(git)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 if [[ ! -f $HOME/.vimrc  ]]; then
-    export VIMRC='$HOME/.vim/.vimrc'
+    export VIMRC='~/.vim/.vimrc'
+fi
+
+if [[ -f $HOME/.xmonad/xmonad.hs  ]]; then
+    export WMCONFIG='~/.xmonad/xmonad.hs'
+fi
+
+if [[ -f $HOME/.zshrc  ]]; then
+    export ZSHRC='~/.zshrc'
 fi
 
 source $ZSH/oh-my-zsh.sh
