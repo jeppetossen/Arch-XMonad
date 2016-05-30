@@ -1,0 +1,10 @@
+    " Quickly edit/source .vimrc
+    noremap <leader>ve :edit $HOME/.vimrc<CR>
+    noremap <leader>vs :source $HOME/.vimrc<CR>
+    
+    " Yank(copy) to system clipboard
+    noremap <leader>y "+y
+    
+    " Highlight last inserted text
+    nnoremap gV '[V']
+    
