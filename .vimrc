@@ -25,7 +25,7 @@ let g:airline_powerline_fonts=1
   Bundle 'tpope/vim-markdown'
   Bundle 'tpope/vim-unimpaired'
   Bundle 'msanders/snipmate.vim'
-  Bundle 'ervandew/supertab'
+  "Bundle 'ervandew/supertab'
   Bundle 'tomtom/tlib_vim'
   Bundle 'scrooloose/nerdtree'
   Bundle 'Xuyuanp/nerdtree-git-plugin'
