@@ -1,5 +1,5 @@
 !URxvt.font: xft:Droid Sans Mono:pixelsize=14
-URxvt.font: xft:Droid Sans Mono for Powerline:pixelsize=15:antialias=true:hinting=true
+URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=15:antialias=true:hinting=true
 URxvt*letterSpace: 1
 
 URxvt.depth: 24
