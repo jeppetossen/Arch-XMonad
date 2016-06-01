@@ -119,6 +119,9 @@ alias gadd="git add ."
 alias gatus="git status"
 # Tmux
 alias tmuxs="tmux source ~/.tmux.conf"
+alias tmessn="tmux new-session -s"
+alias tmatt="tmux a -t"
+alias tmill="tmux kill-session -t"
 # Vim
 alias svim="sudo vim"
 alias vim="vim -u $HOME/.vim/.vimrc"
