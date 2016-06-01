@@ -1,0 +1,2 @@
+/home/otiuz	40
+/home/otiuz/.vim	40
