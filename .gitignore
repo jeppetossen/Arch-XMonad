@@ -22,3 +22,5 @@
 !.Xresources
 !.zshrc
 !.zsh-update
+!.tmux
+!.tmux.conf
