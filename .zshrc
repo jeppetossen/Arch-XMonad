@@ -123,7 +123,6 @@ alias tmessn="tmux new-session -s"
 alias tmatt="tmux a -t"
 alias tmill="tmux kill-session -t"
 # Vim
-alias svim="sudo vim"
 alias vim="vim -u $HOME/.vim/.vimrc"
 alias vimrc="vim $VIMRC"
 alias vimsh="vim $HOME/.zshrc"
