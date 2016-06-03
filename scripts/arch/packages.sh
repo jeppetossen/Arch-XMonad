@@ -1,12 +1,5 @@
 #!/bin/sh
 
-# init
-function pause(){
-   read -p "$*"
-}
-
-#pause 'Press [Enter] key to continue...'
-
 ipkg="$HOME/scripts/arch/data/ipkg"
 while read -r line
 do
