@@ -493,7 +493,7 @@
 
         function! s:syntastic()
             SyntasticCheck
-            call lightline#update()
+            "call lightline#update()
         endfunction
 
         augroup AutoSyntastic

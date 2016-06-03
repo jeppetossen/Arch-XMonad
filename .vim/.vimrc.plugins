@@ -16,7 +16,7 @@
         Plugin 'neovimhaskell/haskell-vim'
         Plugin 'alvan/vim-closetag'
         Plugin 'airblade/vim-gitgutter'
-
+        
         Plugin 'vim-airline/vim-airline-themes'
         Plugin 'KKPMW/moonshine-vim'
         Plugin 'hewo/vim-colorscheme-deepsea'
@@ -31,7 +31,7 @@
         Plugin 'chrisbra/SudoEdit.vim'
 
         " <Tab> everything!
-        "Plugin 'ervandew/supertab'
+        Plugin 'ervandew/supertab'
 
         " Fuzzy finder (files, mru, etc)
         Plugin 'ctrlpvim/ctrlp.vim'

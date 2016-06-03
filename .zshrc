@@ -124,6 +124,7 @@ alias tmatt="tmux a -t"
 alias tmill="tmux kill-session -t"
 # Vim
 alias vim="vim -u $HOME/.vim/.vimrc"
+alias vimplug="vim $HOME/.vim/.vimrc.plugins"
 alias vimrc="vim $VIMRC"
 alias vimsh="vim $HOME/.zshrc"
 alias tvim="vim ~/.tmux.conf"
