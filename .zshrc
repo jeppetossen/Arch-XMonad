@@ -95,10 +95,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [ -f $HOME/scripts/arch/packages.sh ]
-    sh $HOME/scripts/arch/packages.sh
-fi
+#if [ ! -f $HOME/scripts/arch/packages.sh ]
+#    sh $HOME/scripts/arch/packages.sh
+#fi
 
+
+# System
+alias update="sudo pacman -Syyu"
 # List
 alias tree="tree -L 1"
 alias treed="tree -D -L 1"
