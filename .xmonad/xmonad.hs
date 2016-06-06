@@ -131,6 +131,7 @@ myManageHook = (composeAll . concat $
 	,  [className =? "Atom" --> doShift "devel"]
 	,  [className =? "Spotify" --> doShift "media"]
 	,  [className =? "Skype" --> doFloat]
+    ,  [className =? "google-chrome" --> doFullFloat]
 	]) <+> manageDocks
 
 myLayoutHook = spacing 3 $ avoidStruts $ smartBorders $ tiled 
