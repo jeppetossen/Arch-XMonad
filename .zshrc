@@ -99,7 +99,8 @@ source $ZSH/oh-my-zsh.sh
 #    sh $HOME/scripts/arch/packages.sh
 #fi
 
-
+# Wine
+alias winepoe="WINEPREFIX=$HOME/.wine-poe wine"
 # System
 alias update="sudo pacman -Syyu"
 # List

@@ -132,7 +132,11 @@ myManageHook = (composeAll . concat $
 	,  [className =? "Spotify" --> doShift "media"]
 	,  [className =? "Skype" --> doFloat]
     ,  [className =? "google-chrome" --> doFullFloat]
-	]) <+> manageDocks
+    ,  [className =? "Steam.exe" --> doFloat]
+    ,  [className =? "PathOfExileSteam.exe" --> doFullFloat]
+    ,  [className =? "Runescape" --> doFullFloat]
+    ,  [className =? "Runescape" --> doShift "play"]
+    ]) <+> manageDocks
 
 myLayoutHook = spacing 3 $ avoidStruts $ smartBorders $ tiled 
 	where
